@@ -1,9 +1,11 @@
 .dark .RootLayout {
-	min-height: 100vw;
-	background-color: var(--clr-3);
+	min-height: 100vh;
+	background-color: var(--clr-5);
+	color: var(--f-2);
 }
 
 .light .RootLayout {
-	min-height: 100vw;
-	background-color: var(--clr-5);
+	color: var(--f-1);
+	min-height: 100vh;
+	background-color: var(--clr-2);
 }

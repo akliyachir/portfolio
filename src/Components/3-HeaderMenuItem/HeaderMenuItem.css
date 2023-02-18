@@ -1,0 +1,10 @@
+.light .HeaderMenuItem {
+	user-select: none;
+	cursor: pointer;
+	color: var(--clr-5);
+}
+.dark .HeaderMenuItem {
+	user-select: none;
+	cursor: pointer;
+	color: var(--clr-3);
+}

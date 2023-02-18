@@ -4,8 +4,8 @@
 	color: var(--clr-5);
 	background-color: var(--clr-3);
 	box-shadow: 0 0 0 0.1rem var(--clr-5);
-	height: 1.5rem;
-	width: 1.5rem;
+	height: 2rem;
+	width: 2rem;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -15,11 +15,11 @@
 .dark .lightSwitchStyle {
 	font-size: 1.2rem;
 	cursor: pointer;
-	color: var(--clr-3);
-	background-color: var(--clr-5);
-	box-shadow: 0 0 0 0.1rem var(--clr-3);
-	height: 1.5rem;
-	width: 1.5rem;
+	color: var(--clr-5);
+	background-color: var(--clr-2);
+	box-shadow: 0 0 0 0.1rem var(--clr-5);
+	height: 2rem;
+	width: 2rem;
 	display: flex;
 	justify-content: center;
 	align-items: center;

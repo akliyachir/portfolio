@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto&display=swap');
+
 * {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Inter', sans-serif;
 }
 
 :root {
@@ -11,6 +17,20 @@
 	--clr-4: #000;
 	--clr-5: #333;
 	--clr-6: #555;
-	--p-1: #2f3b47;
-	--p-2: #415264;
+	--tl-1: #8fbdeb;
+	--tl-2: #699ccf;
+	--td-1: #467db4;
+	--td-2: #284e74;
+	--f-1: #1b1b1b;
+	--f-2: #eee;
+}
+
+.light > * {
+	transition-duration: 200ms;
+	transition-timing-function: ease-in-out;
+}
+
+.dark > * {
+	transition-duration: 200ms;
+	transition-timing-function: ease-in-out;
 }
