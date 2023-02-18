@@ -7,7 +7,11 @@ import {
 import RootLayout from './page/RootLayout/RootLayout';
 
 const router = createBrowserRouter(
-	createRoutesFromElements(<Route path='/' element={<RootLayout />}></Route>)
+	createRoutesFromElements(
+		<Route path='/' element={<RootLayout />}>
+			<Route path='https://my-article-online.netlify.com/'></Route>
+		</Route>
+	)
 );
 
 function App() {

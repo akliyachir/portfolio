@@ -8,7 +8,9 @@ export default function ProjectCard({
 }) {
 	return (
 		<div className='ProjectCardContainer'>
-			<div className='firstHalfProjectCard'></div>
+			<div className='firstHalfProjectCard'>
+				<img src={project_image_preview} className='project_image_preview' alt='' />
+			</div>
 			<div className='secondHalfProjectCard'>
 				<h3>{project_name}</h3>
 				<p>{project_description}</p>
