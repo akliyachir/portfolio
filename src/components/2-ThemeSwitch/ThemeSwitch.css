@@ -1,0 +1,9 @@
+.switchContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0.2rem;
+	color: var(--clr-4);
+	font-size: 2rem;
+	border-radius: 50%;
+}
