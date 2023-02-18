@@ -5,12 +5,14 @@ import { ThemeSwitchContext } from '../../contexts/ThemeSwitchContext';
 import { useContext } from 'react';
 
 export default function LightSwitch() {
-	const themeState = useContext(ThemeSwitchContext);
-
+	const { isLightOn, setisLightOn } = useContext(ThemeSwitchContext);
+	// -- handleLightSwitchToggle
+	const handleLightSwitchToggle = () => {
+		setisLightOn(!isLightOn);
+	};
 	return (
-		<div className='lightSwitchStyle'>
-			<FaSun />
-			<GiMoonOrbit />
+		<div className='lightSwitchStyle' onClick={handleLightSwitchToggle}>
+			{isLightOn ? <GiMoonOrbit /> : <FaSun />}
 		</div>
 	);
 }
