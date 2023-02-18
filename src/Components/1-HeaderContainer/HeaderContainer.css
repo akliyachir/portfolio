@@ -1,5 +1,13 @@
-.HeaderContainer {
-	background-color: var(--clr-3);
+.light .HeaderContainer {
+	background-color: var(--p-2);
+	display: flex;
+	justify-content: space-between;
+	padding: 1rem;
+	align-items: center;
+}
+.dark .HeaderContainer {
+	background-color: var(--clr-4);
+	background-color: var(--p-1);
 	display: flex;
 	justify-content: space-between;
 	padding: 1rem;

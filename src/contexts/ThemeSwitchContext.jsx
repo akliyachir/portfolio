@@ -6,8 +6,10 @@ import React from 'react';
 export default function ThemeSwitchContextProvider({ children }) {
 	const [isLightOn, setisLightOn] = useState(false);
 	return (
-		<ThemeSwitchContext.Provider value={{ isLightOn, setisLightOn }}>
-			{children}
-		</ThemeSwitchContext.Provider>
+		<div className={isLightOn ? 'light' : 'dark'}>
+			<ThemeSwitchContext.Provider value={{ isLightOn, setisLightOn }}>
+				{children}
+			</ThemeSwitchContext.Provider>
+		</div>
 	);
 }

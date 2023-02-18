@@ -9,7 +9,7 @@ export default function RootLayout() {
 
 	return (
 		<ThemeSwitchContextProvider>
-			<div className={`RootLayout`}>
+			<div className='RootLayout'>
 				<HeaderContainer />
 			</div>
 		</ThemeSwitchContextProvider>
