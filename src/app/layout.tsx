@@ -1,5 +1,5 @@
 import './globals.css';
-import HeaderContainer from '../components/HeaderContainer/HeaderContainer';
+import HeaderContainer from '../components/1-HeaderContainer/HeaderContainer';
 
 export default function RootLayout({
 	children,
