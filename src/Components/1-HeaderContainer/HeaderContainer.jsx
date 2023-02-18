@@ -7,15 +7,17 @@ import { WindowWidthContext } from '../../contexts/WindowWidth';
 
 export default function HeaderContainer() {
 	const { isLightOn, setisLightOn } = useContext(ThemeSwitchContext);
-	const { WindowWidthValue } = useContext(WindowWidthContext);
-	console.log(WindowWidthValue);
+	const WindowWidthValue = useContext(WindowWidthContext);
 	return (
 		<div className='HeaderContainer'>
+			<div></div>
+			<div className='menuItemsExpanded'>
+				<HeaderMenuItem name={'Project'} link={'project'} />
+				<HeaderMenuItem name={'skills'} link={'skills'} />
+				<HeaderMenuItem name={'curriculum'} link={'curriculum'} />
+				<HeaderMenuItem name={'Contact'} link={'contact'} />
+			</div>
 			<LightSwitch />
-			<HeaderMenuItem name={'Project'} link={'project'} />
-			<HeaderMenuItem name={'skills'} link={'skills'} />
-			<HeaderMenuItem name={'curriculum'} link={'curriculum'} />
-			<HeaderMenuItem name={'Contact'} link={'contact'} />
 		</div>
 	);
 }
