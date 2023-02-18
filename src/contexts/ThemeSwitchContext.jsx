@@ -1,13 +1,13 @@
-import { Children, createContext, useState } from 'react';
+import { createContext, useState } from 'react';
 
 export const ThemeSwitchContext = createContext(null);
 
 import React from 'react';
 const [isLightOn, setisLightOn] = useState(false);
-export default function ThemeSwitchContext({ Children }) {
+export default function ThemeSwitchContextProvider({ children }) {
 	return (
 		<ThemeSwitchContext.Provider value={{ isLightOn, setisLightOn }}>
-			{Children}
+			{children}
 		</ThemeSwitchContext.Provider>
 	);
 }

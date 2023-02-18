@@ -5,8 +5,8 @@ import { ThemeSwitchContext } from '../../contexts/ThemeSwitchContext';
 import { useContext } from 'react';
 
 export default function LightSwitch() {
-	const ThemeSwitchContext = useContext(ThemeSwitchContext);
-	console.log(ThemeSwitchContext);
+	const themeState = useContext(ThemeSwitchContext);
+
 	return (
 		<div className='lightSwitchStyle'>
 			<FaSun />
