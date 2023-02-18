@@ -8,10 +8,11 @@ export default function ProjectCard({
 }) {
 	return (
 		<div className='ProjectCardContainer'>
-			<div
-				className='project_image_preview'
-				style={{ backgroundImage: `url(${project_image_preview})` }}
-			></div>
+			<div className='firstHalfProjectCard'></div>
+			<div className='secondHalfProjectCard'>
+				<h3>{project_name}</h3>
+				<p>{project_description}</p>
+			</div>
 		</div>
 	);
 }
