@@ -1,14 +1,18 @@
 .light .HeaderContainer {
 	background-color: var(--tl-1);
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	padding: 1rem;
 	align-items: center;
+	transition-duration: 200ms;
+	transition-timing-function: ease-in-out;
 }
 .dark .HeaderContainer {
 	background-color: var(--clr-4);
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	padding: 1rem;
 	align-items: center;
+	transition-duration: 200ms;
+	transition-timing-function: ease-in-out;
 }

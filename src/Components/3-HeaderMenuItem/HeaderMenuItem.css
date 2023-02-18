@@ -2,10 +2,55 @@
 	user-select: none;
 	cursor: pointer;
 	color: var(--clr-5);
+	transition-duration: 200ms;
+	transition-timing-function: ease-in-out;
+}
+.HeaderMenuItem a {
+	text-decoration: none;
+	color: inherit;
+	padding: 0.3rem 0.5rem;
+	border-radius: 0.3rem;
+	transition-duration: 200ms;
+	transition-timing-function: ease-in-out;
+}
+
+.light .HeaderMenuItem a:hover {
+	text-decoration: none;
+	color: inherit;
+	color: var(--clr-5);
+	box-shadow: var(--b-1) var(--clr-5);
+	transition-duration: 200ms;
+	transition-timing-function: ease-in-out;
+}
+.light .HeaderMenuItem a:active {
+	text-decoration: none;
+	color: inherit;
+	color: var(--clr-3);
+	box-shadow: var(--b-1) var(--clr-3);
+	transition-duration: 200ms;
+	transition-timing-function: ease-in-out;
 }
 
 .dark .HeaderMenuItem {
 	user-select: none;
 	cursor: pointer;
 	color: var(--clr-3);
+}
+
+.dark .HeaderMenuItem a:hover {
+	text-decoration: none;
+	color: inherit;
+	color: var(--clr-3);
+	box-shadow: var(--b-1) var(--clr-3);
+	transition-duration: 200ms;
+	transition-timing-function: ease-in-out;
+}
+
+.dark .HeaderMenuItem a:active {
+	text-decoration: none;
+	color: inherit;
+	color: var(--clr-5);
+	box-shadow: var(--b-1) var(--clr-5);
+	transition-duration: 200ms;
+	transition-timing-function: ease-in-out;
 }
