@@ -4,8 +4,7 @@ const projectsContent = [
 		project_name: 'articles publishing platform',
 		project_technologies: ['react...'],
 		project_description: 'a platform to publish articles',
-		project_image_preview:
-			'../../img/projectsImages/1-articles-publishing-platform.png',
+		project_image_preview: '/projectsImages/1-articles-publishing-platform.png',
 	},
 ];
 

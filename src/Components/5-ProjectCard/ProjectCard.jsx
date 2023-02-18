@@ -10,10 +10,7 @@ export default function ProjectCard({
 		<div className='ProjectCardContainer'>
 			<div
 				className='project_image_preview'
-				style={{
-					backgroundImage: 'url(' + project_image_preview + ')',
-					backgroundColor: 'purple',
-				}}
+				style={{ backgroundImage: `url(${project_image_preview})` }}
 			></div>
 		</div>
 	);

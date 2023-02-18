@@ -1,8 +1,10 @@
-.project_image_preview {
-	width: 300px;
+.light .project_image_preview {
+	width: 40vwpx;
+	aspect-ratio: 1;
+	padding: 0.5rem;
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: center;
-	aspect-ratio: 1;
-	background-color: red;
+	background-color: var(--clr-2);
+	box-shadow: 0 0 0 1 var(--clr-5);
 }
