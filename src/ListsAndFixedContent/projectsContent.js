@@ -5,7 +5,7 @@ const projectsContent = [
 		project_technologies: ['react...'],
 		project_description: 'a platform to publish articles',
 		project_image_preview:
-			'..img/srcimgprojectsImages/1-articles-publishing-platform.png',
+			'../../img/projectsImages/1-articles-publishing-platform.png',
 	},
 ];
 
