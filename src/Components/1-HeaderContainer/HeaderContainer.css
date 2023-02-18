@@ -1,4 +1,7 @@
 .HeaderContainer {
-	background-color: violet;
-	padding: 2rem;
+	background-color: var(--clr-3);
+	display: flex;
+	justify-content: space-between;
+	padding: 1rem;
+	align-items: center;
 }

@@ -3,3 +3,12 @@
 	margin: 0;
 	box-sizing: border-box;
 }
+
+:root {
+	--clr-1: #fff;
+	--clr-2: #f1f1f1;
+	--clr-3: #eeee;
+	--clr-4: #000;
+	--clr-5: #333;
+	--clr-6: #555;
+}

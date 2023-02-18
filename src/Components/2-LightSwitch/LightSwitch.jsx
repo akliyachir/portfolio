@@ -1,11 +1,16 @@
 import './LightSwitch.css';
-import { FaMoon, FaSun } from 'react-icons/fa';
+import { FaSun } from 'react-icons/fa';
+import { GiMoonOrbit } from 'react-icons/gi';
+import { ThemeSwitchContext } from '../../contexts/ThemeSwitchContext';
+import { useContext } from 'react';
 
 export default function LightSwitch() {
+	const ThemeSwitchContext = useContext(ThemeSwitchContext);
+	console.log(ThemeSwitchContext);
 	return (
-		<div>
+		<div className='lightSwitchStyle'>
 			<FaSun />
-			<FaMoon />
+			<GiMoonOrbit />
 		</div>
 	);
 }
