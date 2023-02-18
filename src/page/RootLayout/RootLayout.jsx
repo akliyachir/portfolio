@@ -1,7 +1,6 @@
 import './RootLayout.css';
 import HeaderContainer from '../../Components/1-HeaderContainer/HeaderContainer';
-// -- context light dark switch
-import { useContext } from 'react';
+// -- context provider light dark switch
 import ThemeSwitchContextProvider from '../../contexts/ThemeSwitchContext.jsx';
 
 export default function RootLayout() {
