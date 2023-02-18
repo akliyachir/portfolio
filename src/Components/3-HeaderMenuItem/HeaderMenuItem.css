@@ -18,6 +18,7 @@
 	text-decoration: none;
 	color: inherit;
 	color: var(--clr-5);
+	background-color: var(--clr-3);
 	box-shadow: var(--b-1) var(--clr-5);
 	transition-duration: 200ms;
 	transition-timing-function: ease-in-out;
@@ -25,7 +26,7 @@
 .light .HeaderMenuItem a:active {
 	text-decoration: none;
 	color: inherit;
-	color: var(--clr-3);
+	color: var(--clr-6);
 	box-shadow: var(--b-1) var(--clr-3);
 	transition-duration: 200ms;
 	transition-timing-function: ease-in-out;
@@ -40,8 +41,9 @@
 .dark .HeaderMenuItem a:hover {
 	text-decoration: none;
 	color: inherit;
-	color: var(--clr-3);
-	box-shadow: var(--b-1) var(--clr-3);
+	background-color: var(--clr-3);
+	color: var(--clr-4);
+	box-shadow: var(--b-1) var(--clr-6);
 	transition-duration: 200ms;
 	transition-timing-function: ease-in-out;
 }
