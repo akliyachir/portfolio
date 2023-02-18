@@ -4,6 +4,7 @@ import { useContext } from 'react';
 import { ThemeSwitchContext } from '../../contexts/ThemeSwitchContext';
 import HeaderMenuItem from '../3-HeaderMenuItem/HeaderMenuItem';
 import { WindowWidthContext } from '../../contexts/WindowWidth';
+import headerMenuItemsList from '../../ListsAndFixedContent/headerMenuItemsList';
 
 export default function HeaderContainer() {
 	const { isLightOn, setisLightOn } = useContext(ThemeSwitchContext);
@@ -12,10 +13,16 @@ export default function HeaderContainer() {
 		<div className='HeaderContainer'>
 			<div></div>
 			<div className='menuItemsExpanded'>
-				<HeaderMenuItem name={'Project'} link={'project'} />
-				<HeaderMenuItem name={'skills'} link={'skills'} />
-				<HeaderMenuItem name={'curriculum'} link={'curriculum'} />
-				<HeaderMenuItem name={'Contact'} link={'contact'} />
+				{headerMenuItemsList.map((item) => {
+					const { MenuItemId, MenuItemName, MenuItemLink } = item;
+					return (
+						<HeaderMenuItem
+							key={MenuItemId}
+							name={MenuItemName}
+							link={MenuItemLink}
+						/>
+					);
+				})}
 			</div>
 			<LightSwitch />
 		</div>
