@@ -9,7 +9,7 @@ export default function HeaderContainer() {
 	return (
 		<div className='HeaderContainer'>
 			<LightSwitch />
-			<HeaderMenuItem />
+			<HeaderMenuItem name={'Project'} link={'project'} />
 		</div>
 	);
 }
