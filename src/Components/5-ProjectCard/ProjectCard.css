@@ -1,11 +1,13 @@
 .light .ProjectCardContainer {
 	background-color: var(--clr-1);
-	box-shadow: var(--b-1) var(--clr-6) inset;
-	padding: 0.5rem;
-	margin: 0.5rem;
+	box-shadow: var(--b-1) var(--clr-6);
+	margin: 1rem;
+	border-radius: 0.5rem;
 }
 
 .light .ImageHalfProjectCard {
+	box-shadow: var(--b-1) var(--clr-6) inset;
+
 	background-color: var(--clr-6);
 	display: inline;
 }
@@ -14,7 +16,7 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	box-shadow: var(--b-1) var(--clr-6) inset;
-	width: 15rem;
+	width: 100%;
 	aspect-ratio: 1;
 	display: block;
 	transition-duration: 200ms;
@@ -33,14 +35,21 @@
 
 .light .detailledDescriptionHalfProjectCard {
 	background-color: inherit;
+	border-radius: 0 0 0.5rem 0.5rem;
 }
 
-.light .detailledDescriptionHalfProjectCard .project_name {
+.light .ProjectCardContainer .project_name {
 	font-size: 2rem;
-	padding-block: 0.5rem;
+	text-align: center;
+	padding-inline: 0.5rem;
+	padding-block: 1.5rem;
+	background-color: var(--td-1);
+	border-radius: 0.5rem 0.5rem 0 0;
 }
 .light .detailledDescriptionHalfProjectCard .project_description {
 	padding-block: 0.5rem;
+	padding-inline: 0.5rem;
+	line-height: 1.6;
 }
 
 .light
@@ -56,6 +65,7 @@
 	align-items: center;
 	flex-wrap: wrap;
 	gap: 0.2rem;
+	padding-inline: 0.5rem;
 }
 
 .light
@@ -64,7 +74,7 @@
 	.project_tech_key {
 	font-size: 1rem;
 	font-weight: bold;
-	padding: 0.3rem 0rem;
+	padding: 0.8rem 0rem;
 	display: block;
 	border-radius: 0.2rem;
 }
@@ -93,7 +103,8 @@
 	flex-direction: column;
 	width: 100%;
 	gap: 0.2rem;
-	padding: 0.5rem;
+	padding-top: 1rem;
+	border-radius: 0.5rem;
 }
 
 .light .ProjectCardContainer .project_links_container a:first-of-type {
@@ -101,7 +112,7 @@
 	background-color: var(--tl-2);
 	text-align: center;
 	padding: 0.7rem;
-	border-radius: 1rem 1rem 0 0;
+	border-radius: 0 0 0 0;
 	transition-duration: 200ms;
 	transition-timing-function: ease-in-out;
 	color: var(--clr-5);
@@ -109,11 +120,10 @@
 }
 .light .ProjectCardContainer .project_links_container a:last-of-type {
 	width: 100%;
-
 	background-color: var(--tl-2);
 	text-align: center;
 	padding: 0.7rem;
-	border-radius: 0 0 1rem 1rem;
+	border-radius: 0 0 0.5rem 0.5rem;
 	transition-duration: 200ms;
 	transition-timing-function: ease-in-out;
 	color: var(--clr-5);

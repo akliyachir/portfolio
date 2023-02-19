@@ -13,6 +13,7 @@ export default function ProjectCard({
 }) {
 	return (
 		<div className='ProjectCardContainer'>
+			<div className='project_name'>{project_name}</div>
 			<div className='ImageHalfProjectCard'>
 				<a
 					style={{ backgroundImage: `url(${project_image_preview})` }}
@@ -23,7 +24,7 @@ export default function ProjectCard({
 				/>
 			</div>
 			<div className='detailledDescriptionHalfProjectCard'>
-				<div className='project_name'>{project_name}</div>
+				<h3 className='project_description'>Description :</h3>
 				<p className='project_description'>{project_description}</p>
 
 				<div className='project_technologies_title'>{}</div>
