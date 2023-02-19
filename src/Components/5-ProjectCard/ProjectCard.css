@@ -1,15 +1,16 @@
 .light .ProjectCardContainer {
-	display: grid;
-	grid-template-columns: 15rem, auto;
-	justify-content: flex-start;
+	display: flex;
+	justify-content: center;
 	align-items: center;
+	flex-wrap: wrap;
 	box-shadow: 0 0 0 2px #a11212;
 }
 
 .light .project_image_preview {
-	width: 100%;
-	background-color: red;
+	width: minmax(15rem, 20rem);
+	background-color: var(--clr-5);
 	display: block;
+	box-shadow: 0 0 0 4px blue;
 }
 
 .light .firstHalfProjectCard {
@@ -22,7 +23,6 @@
 }
 
 .light .project_image_preview {
-	width: 40vwpx;
 	aspect-ratio: 1;
 	padding: 0.5rem;
 	background-repeat: no-repeat;
