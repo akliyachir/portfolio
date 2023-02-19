@@ -1,4 +1,5 @@
 import './ProjectCard.css';
+import { FaGit, FaGithub, FaLink } from 'react-icons/fa';
 
 export default function ProjectCard({
 	id,
@@ -9,7 +10,6 @@ export default function ProjectCard({
 	project_github_repository,
 	project_tech,
 }) {
-	console.log(project_tech);
 	return (
 		<div className='ProjectCardContainer'>
 			<div className='ImageHalfProjectCard'>
@@ -51,14 +51,14 @@ export default function ProjectCard({
 			</div>
 			<div className='project_links_container'>
 				<a href={project_link} target='_blank' rel='noopener noreferrer'>
-					WebSite
+					<FaLink />
 				</a>
 				<a
 					href={project_github_repository}
 					target='_blank'
 					rel='noopener noreferrer'
 				>
-					Github
+					<FaGithub />
 				</a>
 			</div>
 		</div>
