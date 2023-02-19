@@ -2,7 +2,6 @@ const projectsContent = [
 	{
 		id: 1,
 		project_name: 'Articles Publishing Platform',
-		project_technologies: ['react...'],
 		project_description:
 			'a platform to publish articles, with user registration, authentification and authorizations. Password encryption, token and local storage. Foreign keys, and crud operations',
 		project_image_preview: '/projectsImages/1-articles-publishing-platform.png',

@@ -8,6 +8,36 @@
 	background-color: rgb(26, 77, 216);
 }
 
-.light .project_image_preview {
+.light .ImageHalfProjectCard .project_image_preview {
 	max-width: 15rem;
+}
+
+.light .detailledDescriptionHalfProjectCard {
+	background-color: burlywood;
+}
+
+.light .detailledDescriptionHalfProjectCard .project_name {
+	font-size: 2rem;
+	padding-block: 0.5rem;
+}
+.light .detailledDescriptionHalfProjectCard .project_description {
+	padding-block: 0.5rem;
+	background-color: cornsilk;
+}
+
+.light .detailledDescriptionHalfProjectCard .project_technologies {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 0.2rem;
+	background-color: red;
+	padding: 0.2rem;
+}
+
+.light .detailledDescriptionHalfProjectCard .project_technologies .tech_name {
+	font-size: 0.9rem;
+	background-color: darkgoldenrod;
+	padding: 0.1rem 0.3rem;
+	border-radius: 0.2rem;
 }

@@ -3,24 +3,41 @@ import './ProjectCard.css';
 export default function ProjectCard({
 	id,
 	project_name,
-	project_technologies,
 	project_description,
 	project_image_preview,
 	project_link,
 	project_github_repository,
 	project_tech,
-	backend,
-	frontend,
 }) {
+	console.log(project_tech);
 	return (
 		<div className='ProjectCardContainer'>
 			<div className='ImageHalfProjectCard'>
 				<img src={project_image_preview} className='project_image_preview' alt='' />
 			</div>
-			<div className='secondHalfProjectCard'>
-				<div>{project_name}</div>
-				<p>{project_description}</p>
+			<div className='detailledDescriptionHalfProjectCard'>
+				<div className='project_name'>{project_name}</div>
+				<p className='project_description'>{project_description}</p>
+
+				<div className='project_technologies_title'>{}</div>
+				<div className='project_technologies'>
+					{Object.keys(project_tech).map((project_tech_key) => {
+						return (
+							<div key={Object.keys(project_tech).indexOf(project_tech_key)}></div>
+						);
+					})}
+				</div>
 			</div>
 		</div>
 	);
+}
+
+{
+	/* {project_tech.backend.map((backendItem) => {
+	const { tech_id, tech_name } = backendItem;
+	return (
+		<span className='tech_name' key={tech_id}>
+			{tech_name}
+		</span>
+	); */
 }

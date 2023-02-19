@@ -9,17 +9,21 @@ export default function ProjectSection() {
 				const {
 					id,
 					project_name,
-					project_technologies,
 					project_description,
 					project_image_preview,
+					project_link,
+					project_github_repository,
+					project_tech,
 				} = item;
 				return (
 					<ProjectCard
 						key={id}
 						project_name={project_name}
-						project_technologies={project_technologies}
 						project_description={project_description}
 						project_image_preview={project_image_preview}
+						project_link={project_link}
+						project_github_repository={project_github_repository}
+						project_tech={project_tech}
 					/>
 				);
 			})}
