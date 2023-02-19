@@ -1,6 +1,6 @@
 .light .ProjectCardContainer {
 	background-color: var(--clr-1);
-	box-shadow: var(--b-1) var(--clr-6);
+	box-shadow: var(--b-1) var(--clr-6) inset;
 	padding: 0.5rem;
 	margin: 0.5rem;
 }
@@ -76,10 +76,51 @@
 	border-radius: 0.2rem;
 }
 
-.tech_names_container {
+.light .tech_names_container {
 	display: flex;
 	justify-content: flex-start;
 	flex-wrap: wrap;
 	align-items: center;
 	gap: 0.2rem;
+}
+
+.light .ProjectCardContainer .project_links_container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	width: 100%;
+	gap: 0.2rem;
+	background-color: var(--tl-1);
+	padding: 1rem;
+}
+
+.light .ProjectCardContainer .project_links_container a:first-of-type {
+	min-width: 15rem;
+	background-color: var(--tl-2);
+	text-align: center;
+	padding: 0.7rem;
+	border-radius: 1rem 1rem 0 0;
+	transition-duration: 200ms;
+	transition-timing-function: ease-in-out;
+	color: var(--clr-5);
+	font-size: 1.5rem;
+}
+.light .ProjectCardContainer .project_links_container a:last-of-type {
+	min-width: 15rem;
+	background-color: var(--tl-2);
+	text-align: center;
+	padding: 0.7rem;
+	border-radius: 0 0 1rem 1rem;
+	transition-duration: 200ms;
+	transition-timing-function: ease-in-out;
+	color: var(--clr-5);
+	font-size: 1.5rem;
+}
+.light .ProjectCardContainer .project_links_container a:hover {
+	background-color: var(--td-1);
+	transition-duration: 200ms;
+	transition-timing-function: ease-in-out;
 }

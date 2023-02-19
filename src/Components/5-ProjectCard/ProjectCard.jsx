@@ -1,5 +1,6 @@
 import './ProjectCard.css';
-import { FaGit, FaGithub, FaLink } from 'react-icons/fa';
+import { FaExternalLinkAlt, FaGit, FaGithub, FaLink } from 'react-icons/fa';
+import { HiOutlineExternalLink } from 'react-icons/hi';
 
 export default function ProjectCard({
 	id,
@@ -51,7 +52,7 @@ export default function ProjectCard({
 			</div>
 			<div className='project_links_container'>
 				<a href={project_link} target='_blank' rel='noopener noreferrer'>
-					<FaLink />
+					<HiOutlineExternalLink />
 				</a>
 				<a
 					href={project_github_repository}
