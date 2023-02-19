@@ -1,13 +1,12 @@
 .light .ProjectCardContainer {
 	background-color: var(--clr-1);
-	box-shadow: var(--b-1) var(--clr-6);
+	box-shadow: var(--b-1) var(--o-1);
 	margin: 1rem;
 	border-radius: 0.5rem;
 }
 
 .light .ImageHalfProjectCard {
 	box-shadow: var(--b-1) var(--clr-6) inset;
-
 	background-color: var(--clr-6);
 	display: inline;
 }
@@ -15,7 +14,7 @@
 .light .ImageHalfProjectCard .project_image_preview {
 	background-repeat: no-repeat;
 	background-size: cover;
-	box-shadow: var(--b-1) var(--clr-6) inset;
+	box-shadow: var(--b-1) var(--o-1) inset;
 	width: 100%;
 	aspect-ratio: 1;
 	display: block;
@@ -39,11 +38,13 @@
 }
 
 .light .ProjectCardContainer .project_name {
-	font-size: 2rem;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 1.5rem;
 	text-align: center;
 	padding-inline: 0.5rem;
 	padding-block: 1.5rem;
-	background-color: var(--td-1);
+	background-color: var(--ac-1);
 	border-radius: 0.5rem 0.5rem 0 0;
 }
 .light .detailledDescriptionHalfProjectCard .project_description {
