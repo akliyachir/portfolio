@@ -43,6 +43,18 @@ export default function ProjectCard({
 					})}
 				</div>
 			</div>
+			<div className='project_links_container'>
+				<a href={project_link} target='_blank' rel='noopener noreferrer'>
+					link to project
+				</a>
+				<a
+					href='	project_github_repository'
+					target='_blank'
+					rel='noopener noreferrer'
+				>
+					{project_github_repository}
+				</a>
+			</div>
 		</div>
 	);
 }
