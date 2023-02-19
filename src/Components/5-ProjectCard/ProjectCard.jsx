@@ -23,10 +23,21 @@ export default function ProjectCard({
 				<div className='project_technologies'>
 					{Object.keys(project_tech).map((project_tech_key) => {
 						return (
-							<div key={Object.keys(project_tech).indexOf(project_tech_key)}>
-								{project_tech[project_tech_key].map((backendItem) => {
-									const { tech_id, tech_name } = backendItem;
-								})}
+							<div
+								key={Object.keys(project_tech).indexOf(project_tech_key)}
+								className='tech_container'
+							>
+								<span className='project_tech_key'>{project_tech_key} : </span>
+								<span className='tech_names_container'>
+									{project_tech[project_tech_key].map((backendItem) => {
+										const { tech_id, tech_name } = backendItem;
+										return (
+											<span className='tech_name' key={tech_id}>
+												{tech_name}
+											</span>
+										);
+									})}
+								</span>
 							</div>
 						);
 					})}

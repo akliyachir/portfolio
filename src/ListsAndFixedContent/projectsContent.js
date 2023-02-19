@@ -3,7 +3,7 @@ const projectsContent = [
 		id: 1,
 		project_name: 'Articles Publishing Platform',
 		project_description:
-			'a platform to publish articles, with user registration, authentification and authorizations. Password encryption, token and local storage. Foreign keys, and crud operations',
+			'Mern stack platform to publish articles, with user registration, authentification, authorizations, password encryption, token and local storage, foreign keys, and crud operations.',
 		project_image_preview: '/projectsImages/1-articles-publishing-platform.png',
 		project_link: 'https://my-article-online.netlify.app/',
 		project_github_repository:
@@ -16,26 +16,30 @@ const projectsContent = [
 				},
 				{
 					tech_id: 2,
-					tech_name: 'mongoose',
+					tech_name: 'mongodb atlas',
 				},
 				{
 					tech_id: 3,
-					tech_name: 'jsonwebtoken',
+					tech_name: 'mongoose',
 				},
 				{
 					tech_id: 4,
-					tech_name: 'bcrypt',
+					tech_name: 'jsonwebtoken',
 				},
 				{
 					tech_id: 5,
-					tech_name: 'dotenv',
+					tech_name: 'bcrypt',
 				},
 				{
 					tech_id: 6,
-					tech_name: 'cors',
+					tech_name: 'dotenv',
 				},
 				{
 					tech_id: 7,
+					tech_name: 'cors',
+				},
+				{
+					tech_id: 8,
 					tech_name: 'validator',
 				},
 			],
