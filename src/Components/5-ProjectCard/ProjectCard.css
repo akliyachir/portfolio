@@ -90,15 +90,14 @@
 	align-items: center;
 	justify-content: center;
 	align-items: center;
-	flex-wrap: wrap;
+	flex-direction: column;
 	width: 100%;
 	gap: 0.2rem;
-	background-color: var(--tl-1);
 	padding: 0.5rem;
 }
 
 .light .ProjectCardContainer .project_links_container a:first-of-type {
-	min-width: 15rem;
+	width: 100%;
 	background-color: var(--tl-2);
 	text-align: center;
 	padding: 0.7rem;
@@ -109,7 +108,8 @@
 	font-size: 1.5rem;
 }
 .light .ProjectCardContainer .project_links_container a:last-of-type {
-	min-width: 15rem;
+	width: 100%;
+
 	background-color: var(--tl-2);
 	text-align: center;
 	padding: 0.7rem;
