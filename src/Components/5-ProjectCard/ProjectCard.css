@@ -7,10 +7,9 @@
 }
 
 .light .project_image_preview {
-	width: minmax(15rem, 20rem);
+	max-width: 15rem;
 	background-color: var(--clr-5);
 	display: block;
-	box-shadow: 0 0 0 4px blue;
 }
 
 .light .firstHalfProjectCard {
@@ -19,7 +18,6 @@
 .secondHalfProjectCard {
 	box-shadow: 0 0 0 0.01rem var(--clr-5);
 	background-color: yellow;
-	padding: 0.5rem;
 }
 
 .light .project_image_preview {
