@@ -1,17 +1,17 @@
-.light .ProjectCardContainer {
+.ProjectCardContainer {
 	background-color: var(--clr-1);
-	box-shadow: var(--b-1) var(--o-1);
+	box-shadow: var(--b-1) var(--o-1), var(--sh-2);
 	margin: 2rem;
 	border-radius: 0.5rem;
 }
 
-.light .ImageHalfProjectCard {
+.ImageHalfProjectCard {
 	box-shadow: var(--b-1) var(--clr-6) inset;
 	background-color: var(--clr-6);
 	display: inline;
 }
 
-.light .ImageHalfProjectCard .project_image_preview {
+.ImageHalfProjectCard .project_image_preview {
 	background-repeat: no-repeat;
 	background-size: cover;
 	box-shadow: var(--b-1) var(--o-1) inset, var(--sh-1);
@@ -21,23 +21,23 @@
 	transition-duration: 200ms;
 	transition-timing-function: ease-in-out;
 }
-.light .ImageHalfProjectCard .project_image_preview:hover {
+.ImageHalfProjectCard .project_image_preview:hover {
 	scale: 0.95;
 	transition-duration: 200ms;
 	transition-timing-function: ease-in-out;
 }
 
-.light .ImageHalfProjectCard a {
+.ImageHalfProjectCard a {
 	text-decoration: none;
 	color: inherit;
 }
 
-.light .detailledDescriptionHalfProjectCard {
+.detailledDescriptionHalfProjectCard {
 	background-color: inherit;
 	border-radius: 0 0 0.5rem 0.5rem;
 }
 
-.light .ProjectCardContainer .project_name {
+.ProjectCardContainer .project_name {
 	text-transform: uppercase;
 	font-weight: bold;
 	font-size: 1.5rem;
@@ -47,20 +47,17 @@
 	background-color: var(--tl-1);
 	border-radius: 0.5rem 0.5rem 0 0;
 }
-.light .detailledDescriptionHalfProjectCard .project_description {
+.detailledDescriptionHalfProjectCard .project_description {
 	padding-block: 0.5rem;
 	padding-inline: 0.5rem;
 	line-height: 1.6;
 }
 
-.light
-	.detailledDescriptionHalfProjectCard
-	.project_technologies
-	.tech_container {
+.detailledDescriptionHalfProjectCard .project_technologies .tech_container {
 	background-color: inherit;
 }
 
-.light .detailledDescriptionHalfProjectCard .project_technologies {
+.detailledDescriptionHalfProjectCard .project_technologies {
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
@@ -69,10 +66,7 @@
 	padding-inline: 0.5rem;
 }
 
-.light
-	.detailledDescriptionHalfProjectCard
-	.project_technologies
-	.project_tech_key {
+.detailledDescriptionHalfProjectCard .project_technologies .project_tech_key {
 	font-size: 1rem;
 	font-weight: bold;
 	padding: 0.8rem 0rem;
@@ -80,14 +74,14 @@
 	border-radius: 0.2rem;
 }
 
-.light .detailledDescriptionHalfProjectCard .project_technologies .tech_name {
+.detailledDescriptionHalfProjectCard .project_technologies .tech_name {
 	font-size: 0.9rem;
 	background-color: var(--clr-3);
 	padding: 0.1rem 0.3rem;
 	border-radius: 0.2rem;
 }
 
-.light .tech_names_container {
+.tech_names_container {
 	display: flex;
 	justify-content: flex-start;
 	flex-wrap: wrap;
@@ -95,7 +89,7 @@
 	gap: 0.2rem;
 }
 
-.light .ProjectCardContainer .project_links_container {
+.ProjectCardContainer .project_links_container {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -108,9 +102,9 @@
 	border-radius: 0.5rem;
 }
 
-.light .ProjectCardContainer .project_links_container a:first-of-type {
+.ProjectCardContainer .project_links_container a:first-of-type {
 	width: 100%;
-	background-color: var(--tl-2);
+	background-color: var(--tl-1);
 	text-align: center;
 	padding: 0.7rem;
 	border-radius: 0 0 0 0;
@@ -119,9 +113,9 @@
 	color: var(--clr-5);
 	font-size: 1.5rem;
 }
-.light .ProjectCardContainer .project_links_container a:last-of-type {
+.ProjectCardContainer .project_links_container a:last-of-type {
 	width: 100%;
-	background-color: var(--tl-2);
+	background-color: var(--tl-1);
 	text-align: center;
 	padding: 0.7rem;
 	border-radius: 0 0 0.5rem 0.5rem;
@@ -130,7 +124,7 @@
 	color: var(--clr-5);
 	font-size: 1.5rem;
 }
-.light .ProjectCardContainer .project_links_container a:hover {
+.ProjectCardContainer .project_links_container a:hover {
 	background-color: var(--td-1);
 	transition-duration: 200ms;
 	transition-timing-function: ease-in-out;
