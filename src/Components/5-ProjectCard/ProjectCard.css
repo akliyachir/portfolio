@@ -1,14 +1,13 @@
 .light .ProjectCardContainer {
 	display: grid;
-	grid-template-columns: 1fr 2fr;
-	grid-template-rows: 1fr;
-	justify-content: center;
+	grid-template-columns: 15rem, auto;
+	justify-content: flex-start;
 	align-items: center;
+	box-shadow: 0 0 0 2px #a11212;
 }
 
 .light .project_image_preview {
 	width: 100%;
-	aspect-ratio: 1;
 	background-color: red;
 	display: block;
 }
