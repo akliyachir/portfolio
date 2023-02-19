@@ -1,43 +1,13 @@
 .light .ProjectCardContainer {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	box-shadow: 0 0 0 2px #a11212;
-	width: 100%;
+	background-color: rgb(65, 178, 230);
 	padding: 0.5rem;
-	flex-wrap: wrap;
+	margin: 0.5rem;
 }
 
-.light .firstHalfProjectCard {
-	background-color: purple;
+.light .ImageHalfProjectCard {
+	background-color: rgb(26, 77, 216);
 }
 
 .light .project_image_preview {
 	max-width: 15rem;
-	background-color: var(--clr-5);
-	display: block;
-}
-
-.light .secondHalfProjectCard {
-	align-self: flex-start;
-	width: 15rem;
-	height: 15rem;
-	box-shadow: 0 0 0 0.01rem var(--clr-5);
-	background-color: yellow;
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
-	align-items: center;
-}
-
-.light .secondHalfProjectCard h3 {
-	text-align: start;
-	padding-inline: 0.5rem;
-}
-
-.light .secondHalfProjectCard p:first-of-type {
-	padding-inline: 0.5rem;
-	background-color: coral;
-	width: 100%;
-	height: 100%;
 }

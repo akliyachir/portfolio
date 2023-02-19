@@ -6,6 +6,9 @@ const projectsContent = [
 		project_description:
 			'a platform to publish articles, with user registration, authentification and authorizations. Password encryption, token and local storage. Foreign keys, and crud operations',
 		project_image_preview: '/projectsImages/1-articles-publishing-platform.png',
+		project_link: 'https://my-article-online.netlify.app/',
+		project_github_repository:
+			'https://github.com/akliyachir/Mern_stack_Articles_Publishing_platform',
 		project_tech: {
 			backend: [
 				{
@@ -76,3 +79,18 @@ const projectsContent = [
 ];
 
 export default projectsContent;
+
+/* 
+
+id
+project_name
+project_technologies
+project_description
+project_image_preview
+project_link
+project_github_repository
+project_tech
+backend
+frontend
+
+*/
