@@ -13,7 +13,13 @@ export default function ProjectCard({
 	return (
 		<div className='ProjectCardContainer'>
 			<div className='ImageHalfProjectCard'>
-				<img src={project_image_preview} className='project_image_preview' alt='' />
+				<a
+					style={{ backgroundImage: `url(${project_image_preview})` }}
+					href={project_link}
+					target='_blank'
+					rel='noopener noreferrer'
+					className='project_image_preview'
+				/>
 			</div>
 			<div className='detailledDescriptionHalfProjectCard'>
 				<div className='project_name'>{project_name}</div>
@@ -45,26 +51,16 @@ export default function ProjectCard({
 			</div>
 			<div className='project_links_container'>
 				<a href={project_link} target='_blank' rel='noopener noreferrer'>
-					link to project
+					WebSite
 				</a>
 				<a
-					href='	project_github_repository'
+					href={project_github_repository}
 					target='_blank'
 					rel='noopener noreferrer'
 				>
-					{project_github_repository}
+					Github
 				</a>
 			</div>
 		</div>
 	);
-}
-
-{
-	/* {project_tech.backend.map((backendItem) => {
-	const { tech_id, tech_name } = backendItem;
-	return (
-		<span className='tech_name' key={tech_id}>
-			{tech_name}
-		</span>}
-	); */
 }
