@@ -1,36 +1,36 @@
 .light .lightSwitchStyle {
-	font-size: 1.2rem;
-	cursor: pointer;
-	color: var(--clr-5);
-	background-color: var(--clr-3);
-	box-shadow: 0 0 0 0.1rem var(--clr-5);
-	height: 2rem;
-	width: 2rem;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	border-radius: 50%;
-	padding: 0.2rem;
+  cursor: pointer;
+  color: var(--clr-5);
+  background-color: var(--clr-3);
+  box-shadow: 0 0 0 0.1rem var(--clr-5);
+  height: 2.75rem;
+  width: 2.75rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  padding: 0.2rem;
+  font-size: 1.8rem;
 }
 
 .light .lightSwitchStyle:hover {
-	box-shadow: var(--b-1) var(--clr-5), 0 0 0 0.1rem var(--clr-5);
+  box-shadow: var(--b-1) var(--clr-5), 0 0 0 0.1rem var(--clr-5);
 }
 
 .dark .lightSwitchStyle {
-	font-size: 1.2rem;
-	cursor: pointer;
-	color: var(--clr-5);
-	background-color: var(--clr-2);
-	box-shadow: 0 0 0 0.1rem var(--clr-5);
-	height: 2rem;
-	width: 2rem;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	border-radius: 50%;
-	padding: 0.2rem;
+  height: 2.75rem;
+  width: 2.75rem;
+  font-size: 1.8rem;
+  cursor: pointer;
+  color: var(--clr-5);
+  background-color: var(--clr-2);
+  box-shadow: 0 0 0 0.1rem var(--clr-5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  padding: 0.2rem;
 }
 .dark .lightSwitchStyle:hover {
-	box-shadow: var(--b-1) var(--clr-5), 0 0 0 0.1rem var(--clr-5);
+  box-shadow: var(--b-1) var(--clr-5), 0 0 0 0.1rem var(--clr-5);
 }
