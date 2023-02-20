@@ -1,8 +1,20 @@
 import './ProjectCard.css';
 import { FaExternalLinkAlt, FaGit, FaGithub, FaLink } from 'react-icons/fa';
 import { HiOutlineExternalLink } from 'react-icons/hi';
-import { useContext, useState } from 'react';
+import { useContext, useEffect, useReducer } from 'react';
 import { WindowWidthContext } from '../../contexts/WindowWidth';
+
+const StyleReducer = (StyleState, action) => {
+	switch (action.type) {
+		case 'SMALL':
+			return { ...StyleState };
+		default:
+			return { ...StyleState };
+	}
+};
+const StyleDefaultState = {
+	style: 'small',
+};
 
 export default function ProjectCard({
 	id,
@@ -14,11 +26,19 @@ export default function ProjectCard({
 	project_tech,
 }) {
 	const pageWidth = useContext(WindowWidthContext);
-	console.log(pageWidth);
-	const [WidthCardStyling, setWidthCardStyling] = useState();
+	const [StyleState, StyleDispatch] = useReducer(
+		StyleReducer,
+		StyleDefaultState
+	);
+
+	useEffect(() => {
+		console.log('hola');
+	}, [pageWidth]);
+
+	console.log(StyleState.style);
 
 	return (
-		<div className='ProjectCardContainer'>
+		<div className={`${StyleState.style} ProjectCardContainer`}>
 			<div className='project_name'>{project_name}</div>
 			<div className='ImageHalfProjectCard'>
 				<a
