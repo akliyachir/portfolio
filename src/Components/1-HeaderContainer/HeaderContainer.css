@@ -1,27 +1,37 @@
 .menuItemsExpanded {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
-	gap: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
 }
 
 .light .HeaderContainer {
-	background-color: var(--tl-1);
-	display: flex;
-	justify-content: space-between;
-	padding: 1rem 1.2rem;
-	align-items: center;
-	transition-duration: 200ms;
-	transition-timing-function: ease-in-out;
-	box-shadow: var(--sh-1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4rem;
+  background-color: var(--tl-1);
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1.2rem;
+  align-items: center;
+  transition-duration: 200ms;
+  transition-timing-function: ease-in-out;
+  box-shadow: var(--sh-1);
 }
 .dark .HeaderContainer {
-	background-color: var(--clr-4);
-	display: flex;
-	justify-content: space-between;
-	padding: 1rem 1.2rem;
-	align-items: center;
-	transition-duration: 200ms;
-	transition-timing-function: ease-in-out;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4rem;
+  background-color: var(--clr-4);
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1.2rem;
+  align-items: center;
+  transition-duration: 200ms;
+  transition-timing-function: ease-in-out;
 }
