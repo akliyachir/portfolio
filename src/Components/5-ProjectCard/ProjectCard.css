@@ -5,7 +5,11 @@
 }
 
 .SmallProjectCardContainer .expandeProjectDescriptin {
-	padding: 1rem;
+	padding: 0.2rem 1rem;
+	background-color: var(--tl-1);
+	box-shadow: var(--sh-2);
+	margin-top: 1rem;
+	text-align: center;
 }
 
 .dark .SmallProjectCardContainer {
@@ -63,6 +67,8 @@
 
 .detailledDescriptionHalfProjectCard {
 	background-color: inherit;
+	transition-duration: 200ms;
+	transition-timing-function: ease-in-out;
 }
 .dark .detailledDescriptionHalfProjectCard {
 	background-color: inherit;

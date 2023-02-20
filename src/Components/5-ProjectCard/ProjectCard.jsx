@@ -82,14 +82,19 @@ export default function ProjectCard({
 							);
 						})}
 					</div>
+					<div
+						className='expandeProjectDescriptin'
+						onClick={HandleExpandeDescription}
+					>
+						hide description!
+					</div>
 				</div>
 			) : (
 				<div
 					className='expandeProjectDescriptin'
 					onClick={HandleExpandeDescription}
 				>
-					{' '}
-					Expande description!{' '}
+					Expande description!
 				</div>
 			)}
 			<div className='project_links_container'>
