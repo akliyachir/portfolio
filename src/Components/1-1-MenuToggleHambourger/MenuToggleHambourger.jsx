@@ -1,8 +1,8 @@
 import "./MenuToggleHambourger.css";
 
-export default function MenuToggleHambourger() {
+export default function MenuToggleHambourger({ handleSideMenuToggle }) {
   return (
-    <div className="MenuToggleHambourger">
+    <div className="MenuToggleHambourger" onClick={handleSideMenuToggle}>
       <span></span>
       <span></span>
       <span></span>

@@ -1,5 +1,11 @@
 import "./HeaderSideMenu.css";
 
-export default function HeaderSideMenu() {
-  return <div className="HeaderSideMenu">HeaderSideMenu</div>;
+export default function HeaderSideMenu({ isSideMenuOpen }) {
+  return (
+    <div
+      className={isSideMenuOpen ? "HeaderSideMenuOpen" : "HeaderSideMenuClosed"}
+    >
+      HeaderSideMenu
+    </div>
+  );
 }

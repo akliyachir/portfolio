@@ -1,9 +1,26 @@
-.HeaderSideMenu {
-  background-color: red;
+.HeaderSideMenuOpen {
+  background-color: var(--clr-1);
+  box-shadow: var(--sh-2);
   padding: 2rem;
   position: fixed;
   top: 4rem;
   left: 0;
   bottom: 0;
   width: 12rem;
+  transition-duration: 200ms;
+  transition-timing-function: ease-in-out;
+}
+
+.HeaderSideMenuClosed {
+  background-color: var(--clr-1);
+  box-shadow: var(--sh-2);
+  padding: 2rem;
+  position: fixed;
+  top: 4rem;
+  left: 0;
+  bottom: 0;
+  width: 12rem;
+  transform: translateX(-100%);
+  transition-duration: 200ms;
+  transition-timing-function: ease-in-out;
 }
