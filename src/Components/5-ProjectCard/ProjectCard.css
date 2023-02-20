@@ -1,7 +1,7 @@
 .ProjectCardContainer {
 	background-color: var(--clr-1);
 	box-shadow: var(--b-1) var(--o-1), var(--sh-2);
-	margin: 2rem;
+	margin: 0.5rem;
 }
 
 .dark .ProjectCardContainer {
@@ -40,6 +40,11 @@
 	transition-duration: 200ms;
 	transition-timing-function: ease-in-out;
 }
+
+.dark .ImageHalfProjectCard .project_image_preview {
+	box-shadow: var(--b-2);
+}
+
 .ImageHalfProjectCard .project_image_preview:hover {
 	scale: 0.95;
 	transition-duration: 200ms;
