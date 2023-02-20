@@ -1,15 +1,15 @@
-.small .ProjectCardContainer {
+.SmallProjectCardContainer {
 	background-color: var(--clr-1);
 	box-shadow: var(--b-1) var(--o-1), var(--sh-2);
 	margin: 0.5rem;
 }
 
-.dark .ProjectCardContainer {
+.dark .SmallProjectCardContainer {
 	background-color: var(--clr-4);
 	color: var(--clr-3);
 }
 
-.ProjectCardContainer .project_name {
+.SmallProjectCardContainer .project_name {
 	text-transform: uppercase;
 	font-weight: bold;
 	font-size: 1.5rem;
@@ -19,7 +19,7 @@
 	background-color: var(--tl-1);
 }
 
-.dark .ProjectCardContainer .project_name {
+.dark .SmallProjectCardContainer .project_name {
 	background-color: var(--clr-4);
 	box-shadow: var(--b-2);
 }
@@ -110,7 +110,7 @@
 	gap: 0.2rem;
 }
 
-.ProjectCardContainer .project_links_container {
+.SmallProjectCardContainer .project_links_container {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -122,7 +122,7 @@
 	padding-top: 1rem;
 }
 
-.ProjectCardContainer .project_links_container a {
+.SmallProjectCardContainer .project_links_container a {
 	width: 100%;
 	background-color: var(--tl-1);
 	text-align: center;
@@ -133,7 +133,7 @@
 	font-size: 1.5rem;
 }
 
-.dark .ProjectCardContainer .project_links_container a {
+.dark .SmallProjectCardContainer .project_links_container a {
 	background-color: var(--clr-4);
 	color: var(--clr-3);
 	box-shadow: var(--b-2);
@@ -141,13 +141,13 @@
 	transition-timing-function: ease-in-out;
 }
 
-.ProjectCardContainer .project_links_container a:hover {
+.SmallProjectCardContainer .project_links_container a:hover {
 	background-color: var(--td-1);
 	transition-duration: 200ms;
 	transition-timing-function: ease-in-out;
 }
 
-.dark .ProjectCardContainer .project_links_container a:hover {
+.dark .SmallProjectCardContainer .project_links_container a:hover {
 	transition-duration: 200ms;
 	transition-timing-function: ease-in-out;
 	background-color: var(--clr-5);

@@ -15,11 +15,15 @@ export default function ProjectCard({
 }) {
 	const pageWidth = useContext(WindowWidthContext);
 
-	const [styleSwitchValue, setstyleSwitchValue] = useState();
+	const [ExpandDescription, setExpandDescription] = useState();
+
+	const [styleSwitchValue, setstyleSwitchValue] = useState(
+		'SmallProjectCardContainer'
+	);
 	useEffect(() => {
 		const stateSwitch = () => {
 			if (pageWidth <= 320) {
-				setstyleSwitchValue('small');
+				setstyleSwitchValue('SmallProjectCardContainer');
 			} else if (pageWidth <= 500) {
 				setstyleSwitchValue('medium');
 			} else if (pageWidth <= 700) {
@@ -35,7 +39,7 @@ export default function ProjectCard({
 	console.log('hey');
 
 	return (
-		<div className={`${styleSwitchValue} ProjectCardContainer`}>
+		<div className={styleSwitchValue}>
 			<div className='project_name'>{project_name}</div>
 			<div className='ImageHalfProjectCard'>
 				<a
