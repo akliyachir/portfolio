@@ -1,6 +1,8 @@
 import './ProjectCard.css';
 import { FaExternalLinkAlt, FaGit, FaGithub, FaLink } from 'react-icons/fa';
 import { HiOutlineExternalLink } from 'react-icons/hi';
+import { useContext, useState } from 'react';
+import { WindowWidthContext } from '../../contexts/WindowWidth';
 
 export default function ProjectCard({
 	id,
@@ -11,6 +13,10 @@ export default function ProjectCard({
 	project_github_repository,
 	project_tech,
 }) {
+	const pageWidth = useContext(WindowWidthContext);
+	console.log(pageWidth);
+	const [WidthCardStyling, setWidthCardStyling] = useState();
+
 	return (
 		<div className='ProjectCardContainer'>
 			<div className='project_name'>{project_name}</div>
