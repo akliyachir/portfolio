@@ -15,7 +15,7 @@ export default function ProjectCard({
 }) {
 	const pageWidth = useContext(WindowWidthContext);
 
-	const [ExpandDescription, setExpandDescription] = useState(false);
+	const [isDescriptionExpanded, setisDescriptionExpanded] = useState(false);
 
 	const [styleSwitchValue, setstyleSwitchValue] = useState(
 		'SmallProjectCardContainer'
@@ -38,6 +38,10 @@ export default function ProjectCard({
 	console.log(styleSwitchValue);
 	console.log('hey');
 
+	const HandleExpandeDescription = () => {
+		setisDescriptionExpanded(!isDescriptionExpanded);
+	};
+
 	return (
 		<div className={styleSwitchValue}>
 			<div className='project_name'>{project_name}</div>
@@ -50,7 +54,7 @@ export default function ProjectCard({
 					className='project_image_preview'
 				/>
 			</div>
-			{ExpandDescription && (
+			{isDescriptionExpanded ? (
 				<div className='detailledDescriptionHalfProjectCard'>
 					<h3 className='project_description'>Description :</h3>
 					<p className='project_description'>{project_description}</p>
@@ -78,6 +82,14 @@ export default function ProjectCard({
 							);
 						})}
 					</div>
+				</div>
+			) : (
+				<div
+					className='expandeProjectDescriptin'
+					onClick={HandleExpandeDescription}
+				>
+					{' '}
+					Expande description!{' '}
 				</div>
 			)}
 			<div className='project_links_container'>
