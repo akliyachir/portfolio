@@ -1,20 +1,8 @@
 import './ProjectCard.css';
 import { FaExternalLinkAlt, FaGit, FaGithub, FaLink } from 'react-icons/fa';
 import { HiOutlineExternalLink } from 'react-icons/hi';
-import { useContext, useEffect, useReducer } from 'react';
+import { useState, useContext, useEffect, useReducer } from 'react';
 import { WindowWidthContext } from '../../contexts/WindowWidth';
-
-const StyleReducer = (StyleState, action) => {
-	switch (action.type) {
-		case 'SMALL':
-			return { ...StyleState };
-		default:
-			return { ...StyleState };
-	}
-};
-const StyleDefaultState = {
-	style: 'small',
-};
 
 export default function ProjectCard({
 	id,
@@ -26,19 +14,28 @@ export default function ProjectCard({
 	project_tech,
 }) {
 	const pageWidth = useContext(WindowWidthContext);
-	const [StyleState, StyleDispatch] = useReducer(
-		StyleReducer,
-		StyleDefaultState
-	);
 
+	const [styleSwitchValue, setstyleSwitchValue] = useState();
 	useEffect(() => {
-		console.log('hola');
+		const stateSwitch = () => {
+			if (pageWidth <= 320) {
+				setstyleSwitchValue('small');
+			} else if (pageWidth <= 500) {
+				setstyleSwitchValue('medium');
+			} else if (pageWidth <= 700) {
+				setstyleSwitchValue('mediumLarge');
+			} else if (pageWidth <= 900) {
+				setstyleSwitchValue('large');
+			}
+		};
+		stateSwitch();
 	}, [pageWidth]);
 
-	console.log(StyleState.style);
+	console.log(styleSwitchValue);
+	console.log('hey');
 
 	return (
-		<div className={`${StyleState.style} ProjectCardContainer`}>
+		<div className={`${styleSwitchValue} ProjectCardContainer`}>
 			<div className='project_name'>{project_name}</div>
 			<div className='ImageHalfProjectCard'>
 				<a
