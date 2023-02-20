@@ -15,7 +15,7 @@ export default function ProjectCard({
 }) {
 	const pageWidth = useContext(WindowWidthContext);
 
-	const [ExpandDescription, setExpandDescription] = useState();
+	const [ExpandDescription, setExpandDescription] = useState(false);
 
 	const [styleSwitchValue, setstyleSwitchValue] = useState(
 		'SmallProjectCardContainer'
@@ -50,45 +50,47 @@ export default function ProjectCard({
 					className='project_image_preview'
 				/>
 			</div>
-			<div className='detailledDescriptionHalfProjectCard'>
-				<h3 className='project_description'>Description :</h3>
-				<p className='project_description'>{project_description}</p>
+			{ExpandDescription && (
+				<div className='detailledDescriptionHalfProjectCard'>
+					<h3 className='project_description'>Description :</h3>
+					<p className='project_description'>{project_description}</p>
 
-				<div className='project_technologies_title'>{}</div>
-				<div className='project_technologies'>
-					{Object.keys(project_tech).map((project_tech_key) => {
-						return (
-							<div
-								key={Object.keys(project_tech).indexOf(project_tech_key)}
-								className='tech_container'
-							>
-								<span className='project_tech_key'>{project_tech_key} : </span>
-								<span className='tech_names_container'>
-									{project_tech[project_tech_key].map((backendItem) => {
-										const { tech_id, tech_name } = backendItem;
-										return (
-											<span className='tech_name' key={tech_id}>
-												{tech_name}
-											</span>
-										);
-									})}
-								</span>
-							</div>
-						);
-					})}
+					<div className='project_technologies_title'>{}</div>
+					<div className='project_technologies'>
+						{Object.keys(project_tech).map((project_tech_key) => {
+							return (
+								<div
+									key={Object.keys(project_tech).indexOf(project_tech_key)}
+									className='tech_container'
+								>
+									<span className='project_tech_key'>{project_tech_key} : </span>
+									<span className='tech_names_container'>
+										{project_tech[project_tech_key].map((backendItem) => {
+											const { tech_id, tech_name } = backendItem;
+											return (
+												<span className='tech_name' key={tech_id}>
+													{tech_name}
+												</span>
+											);
+										})}
+									</span>
+								</div>
+							);
+						})}
+					</div>
 				</div>
-				<div className='project_links_container'>
-					<a href={project_link} target='_blank' rel='noopener noreferrer'>
-						<HiOutlineExternalLink />
-					</a>
-					<a
-						href={project_github_repository}
-						target='_blank'
-						rel='noopener noreferrer'
-					>
-						<FaGithub />
-					</a>
-				</div>
+			)}
+			<div className='project_links_container'>
+				<a href={project_link} target='_blank' rel='noopener noreferrer'>
+					<HiOutlineExternalLink />
+				</a>
+				<a
+					href={project_github_repository}
+					target='_blank'
+					rel='noopener noreferrer'
+				>
+					<FaGithub />
+				</a>
 			</div>
 		</div>
 	);
