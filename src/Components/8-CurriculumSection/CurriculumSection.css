@@ -1,6 +1,11 @@
 .CurriculumSection {
 	padding: 4rem;
 	margin-top: 3rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 2rem;
 }
 
 .light .CurriculumSection {
@@ -11,11 +16,34 @@
 	background-color: var(--clr-4);
 }
 
+.curriculumTitle {
+	text-align: center;
+	font-size: 2rem;
+	text-decoration: underline;
+}
+
+.light .curriculumTitle {
+	color: var(--clr-5);
+}
+
 .curriculumIconContainer {
-	font-size: 5rem;
+	font-size: 8rem;
 	text-align: center;
 }
 
 .curriculumIconContainer > * {
 	cursor: pointer;
+	color: var(--clr-5);
+	background-color: var(--clr-3);
+	padding: 1rem;
+	border-radius: 1rem;
+	box-shadow: var(--sh-1), 0 0 0 0.01rem var(--clr-5);
+	transition-duration: 200ms;
+	transition-timing-function: ease-in-out;
+}
+
+.curriculumIconContainer > *:hover {
+	scale: 1.1;
+	transition-duration: 200ms;
+	transition-timing-function: ease-in-out;
 }
