@@ -24,3 +24,8 @@
   transition-duration: 200ms;
   transition-timing-function: ease-in-out;
 }
+
+.dark .HeaderSideMenuOpen,
+.dark .HeaderSideMenuClosed {
+  background-color: var(--clr-4);
+}

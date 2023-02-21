@@ -1,8 +1,18 @@
 import "./MenuToggleHambourger.css";
 
-export default function MenuToggleHambourger({ handleSideMenuToggle }) {
+export default function MenuToggleHambourger({
+  handleSideMenuToggle,
+  isSideMenuOpen,
+}) {
   return (
-    <div className="MenuToggleHambourger" onClick={handleSideMenuToggle}>
+    <div
+      className={
+        isSideMenuOpen
+          ? "MenuToggleHambourgerClosed"
+          : "MenuToggleHambourgerOpen"
+      }
+      onClick={handleSideMenuToggle}
+    >
       <span></span>
       <span></span>
       <span></span>

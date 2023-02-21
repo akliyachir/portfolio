@@ -32,7 +32,10 @@ export default function HeaderContainer() {
           );
         })}
       </div>
-      <MenuToggleHambourger handleSideMenuToggle={handleSideMenuToggle} />
+      <MenuToggleHambourger
+        isSideMenuOpen={isSideMenuOpen}
+        handleSideMenuToggle={handleSideMenuToggle}
+      />
     </div>
   );
 }
