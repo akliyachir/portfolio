@@ -4,6 +4,10 @@
 	align-items: center;
 }
 
+.ProjectSectionContainerContainerBis {
+	width: 100%;
+}
+
 .ProjectSection .projectsSectionTitle {
 	font-size: 2rem;
 	padding-block: 1rem;
@@ -12,4 +16,14 @@
 
 .light .ProjectSection .projectsSectionTitle {
 	color: var(--clr-5);
+}
+
+.projectCardsGlobalContainer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 2rem;
+	width: 100%;
+	padding-bottom: 1rem;
 }
