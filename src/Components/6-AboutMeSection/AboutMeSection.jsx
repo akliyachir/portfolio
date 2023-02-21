@@ -7,9 +7,13 @@ export default function AboutMeSection() {
 	return (
 		<div className='AboutMeSection' id='about_me'>
 			<div className='AboutMeSectionContent'>
-				<div className='profilePicture' />
-				<div className='title'>{aboutMeSectionContent.title}</div>
-				<p className='presentation'>{aboutMeSectionContent.presentation}</p>
+				<div className='AboutMeSectionContentContainer'>
+					<div className='titleAndProfilePicture'>
+						<div className='title'>{aboutMeSectionContent.title}</div>
+						<div className='profilePicture' />
+					</div>
+					<p className='presentation'>{aboutMeSectionContent.presentation}</p>
+				</div>
 			</div>
 		</div>
 	);
