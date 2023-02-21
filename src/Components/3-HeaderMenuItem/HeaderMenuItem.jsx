@@ -1,9 +1,15 @@
 import './HeaderMenuItem.css';
 
-export default function HeaderMenuItem({ name, link }) {
+export default function HeaderMenuItem({
+	name,
+	link,
+	handleSideMenuToggleCloseOnly,
+}) {
 	return (
 		<div className='HeaderMenuItem'>
-			<a href={`#${link}`}>{name}</a>
+			<a href={`#${link}`} onClick={handleSideMenuToggleCloseOnly}>
+				{name}
+			</a>
 		</div>
 	);
 }

@@ -2,7 +2,7 @@
 	background-color: var(--clr-1);
 	box-shadow: var(--b-1) var(--o-1), var(--sh-2);
 	margin-top: 1rem;
-	max-width: 280px;
+	max-width: 17rem;
 	padding: 0.7rem;
 	box-shadow: 0 0 0 0.1rem var(--clr-5);
 }
@@ -19,6 +19,10 @@
 	color: var(--clr-3);
 	box-shadow: var(--sh-2);
 	text-align: center;
+}
+
+.dark .SmallProjectCardContainer {
+	box-shadow: var(--w-1);
 }
 
 .dark .SmallProjectCardContainer .expandeProjectDescriptin {
@@ -59,7 +63,7 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-blend-mode: luminosity;
-	background-color: rgb(255, 11, 182);
+	background-color: rgb(11, 198, 255);
 	box-shadow: var(--b-1) var(--o-1) inset, var(--sh-1);
 	width: 100%;
 	aspect-ratio: 1;

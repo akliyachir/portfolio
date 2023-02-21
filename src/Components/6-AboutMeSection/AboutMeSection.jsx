@@ -9,8 +9,8 @@ export default function AboutMeSection() {
 			<div className='AboutMeSectionContent'>
 				<div className='AboutMeSectionContentContainer'>
 					<div className='titleAndProfilePicture'>
-						<div className='title'>{aboutMeSectionContent.title}</div>
 						<div className='profilePicture' />
+						<div className='title'>{aboutMeSectionContent.title}</div>
 					</div>
 					<p className='presentation'>{aboutMeSectionContent.presentation}</p>
 				</div>

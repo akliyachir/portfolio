@@ -6,6 +6,7 @@ import WindowWidthProvider from '../../contexts/WindowWidth';
 import ProjectSection from '../../Components/4-ProjectSection/ProjectSection';
 import FooterRoot from '../../Components/3-1-FooterRoot/FooterRoot';
 import AboutMeSection from '../../Components/6-AboutMeSection/AboutMeSection';
+import SkillsSection from '../../Components/7-SkillsSection/SkillsSection';
 
 export default function RootLayout() {
 	return (
@@ -18,6 +19,7 @@ export default function RootLayout() {
 					<main>
 						<AboutMeSection />
 						<ProjectSection />
+						<SkillsSection />
 					</main>
 					<footer>
 						<FooterRoot />
