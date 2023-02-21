@@ -29,7 +29,7 @@
 }
 
 .light .skillsItemsLoop {
-	box-shadow: 0 0 0 0.1rem var(--clr-5);
+	box-shadow: 0 0 0 0.1rem var(--clr-5), var(--sh-2);
 	background-color: var(--clr-1);
 	color: var(--clr-5);
 }

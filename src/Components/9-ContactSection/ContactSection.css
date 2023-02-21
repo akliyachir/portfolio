@@ -1,0 +1,27 @@
+.ContactSection {
+	padding: 1rem;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.ContactSection .contactSectionTitle {
+	font-size: 2rem;
+	padding-block: 1rem;
+	text-align: center;
+}
+
+.light .ContactSection .contactSectionTitle {
+	color: var(--clr-5);
+}
+.dark .ContactSection .contactSectionTitle {
+	color: var(--clr-3);
+}
+
+.ContactSection .ContactSectionContent {
+	background-color: #fff;
+	color: black;
+	max-width: 17rem;
+}

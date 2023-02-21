@@ -1,7 +1,5 @@
 import './SkillsSection.css';
 import skillsItems from '../../ListsAndFixedContent/skillsItems';
-import { FaReacteurope } from 'react-icons/fa';
-import { RiReactjsFill } from 'react-icons/ri';
 
 export default function SkillsSection() {
 	return (

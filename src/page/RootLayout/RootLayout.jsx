@@ -7,6 +7,7 @@ import ProjectSection from '../../Components/4-ProjectSection/ProjectSection';
 import FooterRoot from '../../Components/3-1-FooterRoot/FooterRoot';
 import AboutMeSection from '../../Components/6-AboutMeSection/AboutMeSection';
 import SkillsSection from '../../Components/7-SkillsSection/SkillsSection';
+import ContactSection from '../../Components/9-ContactSection/ContactSection';
 
 export default function RootLayout() {
 	return (
@@ -20,6 +21,7 @@ export default function RootLayout() {
 						<AboutMeSection />
 						<ProjectSection />
 						<SkillsSection />
+						<ContactSection />
 					</main>
 					<footer>
 						<FooterRoot />
