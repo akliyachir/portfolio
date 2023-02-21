@@ -1,0 +1,17 @@
+.AboutMeSection {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding-block: 1rem;
+}
+.AboutMeSection .AboutMeSectionContent {
+	background-color: white;
+	color: var(--clr-5);
+	padding-inline: 2rem;
+	width: 100%;
+}
+
+.AboutMeSection .AboutMeSectionContent .title {
+	font-size: 1.5rem;
+}
