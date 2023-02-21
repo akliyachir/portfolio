@@ -10,9 +10,9 @@ export default function SkillsSection() {
 				const { skill_id, skill_name, skill_logo } = skillsItemsLoop;
 				console.log(skill_logo);
 				return (
-					<div key={skill_id}>
-						<div>{skill_name}</div>
+					<div key={skill_id} className='skillsItemsLoop'>
 						<div className='skill_logo'>{skill_logo}</div>
+						<div>{skill_name}</div>
 					</div>
 				);
 			})}
