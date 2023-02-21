@@ -1,0 +1,33 @@
+.FooterRoot {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 4rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 0.2rem;
+	padding: 0.5rem;
+}
+
+.FooterNameCopyright {
+	padding: 0.2rem;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	gap: 0.5rem;
+}
+
+.FooterNameCopyright span:nth-last-of-type(2) {
+	font-size: 1.2rem;
+	display: flex;
+}
+
+.dark .FooterRoot {
+	background-color: var(--clr-4);
+}
+.light .FooterRoot {
+	background-color: var(--tl-1);
+}
