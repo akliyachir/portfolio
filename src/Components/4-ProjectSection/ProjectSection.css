@@ -9,3 +9,7 @@
 	padding-block: 1rem;
 	text-align: center;
 }
+
+.light .ProjectSection .projectsSectionTitle {
+	color: var(--clr-5);
+}
