@@ -26,10 +26,21 @@
 	border-radius: 0.5rem;
 	box-shadow: 0 0 0 0.1rem var(--clr-5);
 	max-width: 17rem;
-	background-color: red;
+}
+
+.dark .ContactSection .ContactSectionContent {
+	background-color: var(--clr-4);
+}
+
+.contactElementContainer {
+	padding-block: 0.3rem;
 }
 
 .ContactElementName {
 	margin-right: 0.5rem;
 	font-weight: bold;
+}
+
+.ContactElementInfo {
+	white-space: nowrap;
 }
