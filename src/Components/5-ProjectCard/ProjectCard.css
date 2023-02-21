@@ -130,6 +130,7 @@
 
 .project_description_shorten {
 	padding: 1rem 0.5rem;
+	line-height: 1.6;
 }
 
 .detailledDescriptionHalfProjectCard .project_technologies .tech_container {
