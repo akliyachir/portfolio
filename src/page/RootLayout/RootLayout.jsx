@@ -13,7 +13,7 @@ export default function RootLayout() {
           <header>
             <HeaderContainer />
           </header>
-          <main>{/* 	<ProjectSection /> */}</main>
+          <main>{<ProjectSection />}</main>
         </div>
       </ThemeSwitchContextProvider>
     </WindowWidthProvider>

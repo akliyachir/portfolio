@@ -42,15 +42,17 @@ export default function ProjectCard({
 
   return (
     <div className={styleSwitchValue}>
-      <div className="project_name">{project_name}</div>
-      <div className="ImageHalfProjectCard">
+      {false && <div className="project_name">{project_name}</div>}
+      <div className="ImageHalfProjectCard ">
         <a
           style={{ backgroundImage: `url(${project_image_preview})` }}
           href={project_link}
           target="_blank"
           rel="noopener noreferrer"
           className="project_image_preview"
-        />
+        >
+          <div className="project_name_bis">{project_name}</div>
+        </a>
       </div>
       {isDescriptionExpanded ? (
         <div className="detailledDescriptionHalfProjectCard">

@@ -1,52 +1,57 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Roboto&display=swap");
 
 * {
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
-	scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
-	font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 :root {
-	--o-0: #33333322;
-	--o-1: #33333333;
-	--o-2: #33333355;
-	--o-3: #33333377;
-	--o-4: #33333399;
-	--s-1: #ffffff77;
-	--clr-1: #fff;
-	--clr-2: #e2eeee;
-	--clr-2-1: #f1f1f1;
-	--clr-3: #eeee;
-	--clr-4: #000;
-	--clr-5: #333;
-	--tl-1: #86cdfc;
-	--tl-2: #7cb2e9;
-	--ac-1: #6ab7df;
-	--td-1: #66a1db;
-	--td-2: #284e74;
-	--a-1: #e7331a;
-	--a-2: #f16a16;
-	--a-3: #ffc82f;
-	--a-4: #f6ff92;
-	--a-5: #0d98ba;
-	--a-6: #0074a5;
-	--d-1: #fbf4a0;
-	--d-2: #f7e146;
-	--d-3: #f77455;
-	--d-4: #e2eeee;
-	--d-5: #6ab7df;
-	--d-6: #3e3c63;
-	--f-1: #1b1b1b;
-	--f-2: #eee;
-	--b-1: 0 0 0 0.05rem;
-	--b-2: 0 0 0 0.1rem var(--s-1) inset;
-	--sh-1: 0.1rem 0.1rem 0.2rem var(--o-0);
-	--sh-2: 0.1rem 0.1rem 0.4rem var(--o-0);
+  --ob-1: #ffffff11;
+  --o-0: #33333322;
+  --o-1: #33333333;
+  --o-2: #33333355;
+  --o-3: #33333377;
+  --o-4: #33333399;
+  --o-5: #333333aa;
+  --o-6: #333333bb;
+  --o-7: #333333cc;
+  --o-8: #333333dd;
+  --s-1: #ffffff77;
+  --clr-1: #fff;
+  --clr-2: #e2eeee;
+  --clr-2-1: #f1f1f1;
+  --clr-3: #eeee;
+  --clr-4: #000;
+  --clr-5: #333;
+  --tl-1: #86cdfc;
+  --tl-2: #7cb2e9;
+  --ac-1: #6ab7df;
+  --td-1: #66a1db;
+  --td-2: #284e74;
+  --a-1: #e7331a;
+  --a-2: #f16a16;
+  --a-3: #ffc82f;
+  --a-4: #f6ff92;
+  --a-5: #0d98ba;
+  --a-6: #0074a5;
+  --d-1: #fbf4a0;
+  --d-2: #f7e146;
+  --d-3: #f77455;
+  --d-4: #e2eeee;
+  --d-5: #6ab7df;
+  --d-6: #3e3c63;
+  --f-1: #1b1b1b;
+  --f-2: #eee;
+  --b-1: 0 0 0 0.05rem;
+  --b-2: 0 0 0 0.1rem var(--s-1) inset;
+  --sh-1: 0.1rem 0.1rem 0.2rem var(--o-0);
+  --sh-2: 0.1rem 0.1rem 0.4rem var(--o-0);
 }
 
 /* 
@@ -63,11 +68,11 @@ F7E146
 */
 
 .light > * {
-	transition-duration: 200ms;
-	transition-timing-function: ease-in-out;
+  transition-duration: 200ms;
+  transition-timing-function: ease-in-out;
 }
 
 .dark > * {
-	transition-duration: 200ms;
-	transition-timing-function: ease-in-out;
+  transition-duration: 200ms;
+  transition-timing-function: ease-in-out;
 }

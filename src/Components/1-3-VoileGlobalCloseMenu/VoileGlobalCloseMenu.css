@@ -1,0 +1,29 @@
+.VoileGlobalCloseMenuOpen {
+  position: fixed;
+  top: 4rem;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--ob-1);
+  transition-duration: 200ms;
+  transition-timing-function: ease-in-out;
+  user-select: none;
+}
+
+.VoileGlobalCloseMenuClosed {
+  opacity: 0;
+  user-select: none;
+  position: fixed;
+  top: 4rem;
+  bottom: 0;
+  left: 85%;
+  right: 15%;
+  background-color: var(--ob-1);
+  transition-duration: 200ms;
+  transition-timing-function: ease-in-out;
+}
+
+.light .VoileGlobalCloseMenuOpen,
+.light .VoileGlobalCloseMenuClosed {
+  background-color: var(--o-5);
+}
