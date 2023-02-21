@@ -1,0 +1,21 @@
+.CurriculumSection {
+	padding: 4rem;
+	margin-top: 3rem;
+}
+
+.light .CurriculumSection {
+	background-color: var(--clr-1);
+}
+
+.dark .CurriculumSection {
+	background-color: var(--clr-4);
+}
+
+.curriculumIconContainer {
+	font-size: 5rem;
+	text-align: center;
+}
+
+.curriculumIconContainer > * {
+	cursor: pointer;
+}
