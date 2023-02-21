@@ -1,12 +1,23 @@
+.skillSectionContainer {
+	background-color: inherit;
+}
+
+.skillsSectionTitle {
+	font-size: 2rem;
+	padding-block: 2rem;
+	text-align: center;
+}
+
 .SkillsSection {
-	background-color: red;
 	display: grid;
 	grid-template-columns: repeat(auto-fill, 6rem);
 	gap: 1rem;
+	padding: 1rem;
+	justify-content: center;
+	align-items: center;
 }
 
 .skillsItemsLoop {
-	background-color: purple;
 	width: 100%;
 	height: 100%;
 	display: flex;
@@ -14,6 +25,17 @@
 	align-items: center;
 	flex-direction: column;
 	padding: 0.5rem;
+	border-radius: 0.5rem;
+}
+
+.light .skillsItemsLoop {
+	box-shadow: 0 0 0 0.1rem var(--clr-5);
+	background-color: var(--clr-1);
+	color: var(--clr-5);
+}
+
+.dark .skillsItemsLoop {
+	background-color: var(--clr-4);
 }
 
 .SkillsSection .skill_logo {
