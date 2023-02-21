@@ -1,13 +1,14 @@
 .SmallProjectCardContainer {
   background-color: var(--clr-1);
   box-shadow: var(--b-1) var(--o-1), var(--sh-2);
+  margin-top: 1rem;
 }
 
 .SmallProjectCardContainer .expandeProjectDescriptin {
   padding: 0.2rem 1rem;
-  background-color: var(--tl-1);
+  background-color: var(--o-8);
+  color: var(--clr-3);
   box-shadow: var(--sh-2);
-  margin-top: 1rem;
   text-align: center;
 }
 
@@ -59,10 +60,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--o-7);
+  background-color: var(--o-8);
   background-blend-mode: multiply;
   height: 100%;
-  color: var(--clr-2);
+  color: var(--clr-3);
   text-transform: uppercase;
   line-height: 1.5;
   padding: 1rem;
@@ -97,6 +98,10 @@
   padding-block: 0.5rem;
   padding-inline: 0.5rem;
   line-height: 1.6;
+}
+
+.project_description_shorten {
+  padding: 1rem 0.5rem;
 }
 
 .detailledDescriptionHalfProjectCard .project_technologies .tech_container {
