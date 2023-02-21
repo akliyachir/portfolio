@@ -1,5 +1,12 @@
 import { FaJs, FaCss3 } from 'react-icons/fa';
-import {} from 'react-icons/all';
+import {
+	DiMongodb,
+	DiPostgresql,
+	DiNodejs,
+	DiReact,
+	DiNpm,
+} from 'react-icons/di';
+import { IoLogoJavascript, IoLogoCss3 } from 'react-icons/io';
 import {
 	RiReactjsFill,
 	RiNpmjsFill,
@@ -11,28 +18,28 @@ const skillsItems = [
 	{
 		skill_id: 1,
 		skill_name: 'React',
-		skill_logo: <RiReactjsFill />,
+		skill_logo: <DiReact />,
 	},
 	{
 		skill_id: 2,
-		skill_name: 'Express',
-		skill_logo: '',
+		skill_name: 'Express ',
+		skill_logo: <DiNodejs />,
 	},
 	{
 		skill_id: 3,
 		skill_name: 'Mongodb',
-		skill_logo: '',
+		skill_logo: <DiMongodb />,
 	},
 	{
 		skill_id: 4,
 		skill_name: 'PostgreSql',
-		skill_logo: '',
+		skill_logo: <DiPostgresql />,
 	},
 
 	{
 		skill_id: 5,
 		skill_name: 'NPM',
-		skill_logo: <RiNpmjsFill />,
+		skill_logo: <DiNpm />,
 	},
 	{
 		skill_id: 6,
@@ -42,12 +49,12 @@ const skillsItems = [
 	{
 		skill_id: 7,
 		skill_name: 'Javascript',
-		skill_logo: <FaJs />,
+		skill_logo: <IoLogoJavascript />,
 	},
 	{
 		skill_id: 8,
 		skill_name: 'CSS',
-		skill_logo: <FaCss3 />,
+		skill_logo: <IoLogoCss3 />,
 	},
 	{
 		skill_id: 9,
