@@ -6,11 +6,19 @@
 	padding-block: 1rem;
 }
 .AboutMeSection .AboutMeSectionContent {
-	max-width: 500px;
 	background-color: var(--clr-1);
 	color: var(--clr-5);
 	padding-inline: 2rem;
 	width: 100%;
+}
+
+.profilePicture {
+	width: 8rem;
+	background-image: url('../../img/akli-pic.jpg');
+	aspect-ratio: 1;
+	border-radius: 50%;
+	margin: 1rem;
+	background-color: red;
 }
 
 .AboutMeSection .AboutMeSectionContent .title {
