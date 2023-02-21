@@ -1,6 +1,5 @@
 import './ProjectCard.css';
-import { FaExternalLinkAlt, FaGit, FaGithub, FaLink } from 'react-icons/fa';
-import { BsPaperclip } from 'react-icons/bs';
+import { FaGithub, FaLink } from 'react-icons/fa';
 import { HiOutlineExternalLink } from 'react-icons/hi';
 import { useState, useContext, useEffect, useReducer } from 'react';
 import { WindowWidthContext } from '../../contexts/WindowWidth';
