@@ -1,83 +1,85 @@
 .MenuToggleHambourgerOpen {
-  height: 2.6rem;
-  width: 2.75rem;
-  padding: 0.2rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  border-radius: 0.15rem;
-  background-color: var(--clr-3);
-  box-shadow: 0 0 0 0.1rem var(--clr-5);
-  transition-duration: 200ms;
-  transition-timing-function: ease-in-out;
+	cursor: pointer;
+	height: 2.6rem;
+	width: 2.75rem;
+	padding: 0.2rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	border-radius: 0.15rem;
+	background-color: var(--clr-3);
+	box-shadow: 0 0 0 0.1rem var(--clr-5);
+	transition-duration: 200ms;
+	transition-timing-function: ease-in-out;
 }
 
 .MenuToggleHambourgerOpen span {
-  display: block;
-  height: 0.3rem;
-  width: 2.2rem;
-  border-radius: 0.15rem;
-  background-color: var(--clr-5);
-  transition-duration: 200ms;
-  transition-timing-function: ease-in-out;
+	display: block;
+	height: 0.3rem;
+	width: 2.2rem;
+	border-radius: 0.15rem;
+	background-color: var(--clr-5);
+	transition-duration: 200ms;
+	transition-timing-function: ease-in-out;
 }
 
 .MenuToggleHambourgerOpen span:first-of-type {
-  margin-bottom: 0.3rem;
-  transition-duration: 200ms;
-  transition-timing-function: ease-in-out;
+	margin-bottom: 0.3rem;
+	transition-duration: 200ms;
+	transition-timing-function: ease-in-out;
 }
 
 .MenuToggleHambourgerOpen span:last-of-type {
-  margin-top: 0.3rem;
-  transition-duration: 200ms;
-  transition-timing-function: ease-in-out;
+	margin-top: 0.3rem;
+	transition-duration: 200ms;
+	transition-timing-function: ease-in-out;
 }
 .MenuToggleHambourgerClosed {
-  height: 2.6rem;
-  width: 2.75rem;
-  padding: 0.2rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  border-radius: 0.15rem;
-  background-color: var(--clr-3);
-  box-shadow: 0 0 0 0.1rem var(--clr-5);
-  transition-duration: 200ms;
-  transition-timing-function: ease-in-out;
+	cursor: pointer;
+	height: 2.6rem;
+	width: 2.75rem;
+	padding: 0.2rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	border-radius: 0.15rem;
+	background-color: var(--clr-3);
+	box-shadow: 0 0 0 0.1rem var(--clr-5);
+	transition-duration: 200ms;
+	transition-timing-function: ease-in-out;
 }
 
 .MenuToggleHambourgerClosed span {
-  display: block;
-  height: 0.3rem;
-  width: 2.2rem;
-  border-radius: 0.15rem;
-  background-color: var(--clr-5);
-  transition-duration: 200ms;
-  transition-timing-function: ease-in-out;
+	display: block;
+	height: 0.3rem;
+	width: 2.2rem;
+	border-radius: 0.15rem;
+	background-color: var(--clr-5);
+	transition-duration: 200ms;
+	transition-timing-function: ease-in-out;
 }
 
 .MenuToggleHambourgerClosed span:first-of-type {
-  transform: translate(0.2rem, 0.15rem);
-  margin-bottom: 0;
-  rotate: 45deg;
-  transition-duration: 200ms;
-  transition-timing-function: ease-in-out;
+	transform: translate(0.2rem, 0.15rem);
+	margin-bottom: 0;
+	rotate: 45deg;
+	transition-duration: 200ms;
+	transition-timing-function: ease-in-out;
 }
 .MenuToggleHambourgerClosed span:nth-of-type(2) {
-  margin-bottom: 0;
-  width: 0;
-  opacity: 0%;
-  transition-duration: 200ms;
-  transition-timing-function: ease-in-out;
+	margin-bottom: 0;
+	width: 0;
+	opacity: 0%;
+	transition-duration: 200ms;
+	transition-timing-function: ease-in-out;
 }
 
 .MenuToggleHambourgerClosed span:last-of-type {
-  transform: translate(0.2rem, -0.15rem);
-  margin-top: 0;
-  rotate: -45deg;
-  transition-duration: 200ms;
-  transition-timing-function: ease-in-out;
+	transform: translate(0.2rem, -0.15rem);
+	margin-top: 0;
+	rotate: -45deg;
+	transition-duration: 200ms;
+	transition-timing-function: ease-in-out;
 }

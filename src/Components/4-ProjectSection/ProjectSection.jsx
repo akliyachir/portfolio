@@ -4,7 +4,7 @@ import projectsContent from '../../ListsAndFixedContent/projectsContent';
 
 export default function ProjectSection() {
 	return (
-		<div className='ProjectSection'>
+		<div className='ProjectSection' id='projects'>
 			{projectsContent.map((item) => {
 				const {
 					id,

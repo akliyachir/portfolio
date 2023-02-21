@@ -5,10 +5,12 @@
 	margin: 0;
 	box-sizing: border-box;
 	scroll-behavior: smooth;
+	scroll-padding-top: 4rem;
 }
 
 body {
 	font-family: 'Inter', sans-serif;
+	overflow: scroll;
 }
 
 body::-webkit-scrollbar {
