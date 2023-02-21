@@ -4,6 +4,11 @@
   margin-top: 1rem;
 }
 
+.SmallProjectCardContainer > * {
+  transition-duration: 200ms;
+  transition-timing-function: ease-in-out;
+}
+
 .SmallProjectCardContainer .expandeProjectDescriptin {
   padding: 0.2rem 1rem;
   background-color: var(--o-8);
@@ -115,6 +120,7 @@
   flex-wrap: wrap;
   gap: 0.2rem;
   padding-inline: 0.5rem;
+  padding-bottom: 1rem;
 }
 
 .detailledDescriptionHalfProjectCard .project_technologies .project_tech_key {

@@ -94,7 +94,9 @@ export default function ProjectCard({
       ) : (
         <div>
           <div className="project_description_shorten">
-            {project_description}
+            {!!project_description && project_description.length > 80
+              ? project_description.slice(0, 80) + "..."
+              : project_description}
           </div>
           <div
             className="expandeProjectDescriptin"
