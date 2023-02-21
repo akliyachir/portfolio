@@ -5,14 +5,11 @@ import {
 	DiNodejs,
 	DiReact,
 	DiNpm,
+	DiCss3,
+	DiHtml5,
+	DiJavascript1,
+	DiGit,
 } from 'react-icons/di';
-import { IoLogoJavascript, IoLogoCss3 } from 'react-icons/io';
-import {
-	RiReactjsFill,
-	RiNpmjsFill,
-	RiGithubFill,
-	RiHtml5Fill,
-} from 'react-icons/ri';
 
 const skillsItems = [
 	{
@@ -44,22 +41,22 @@ const skillsItems = [
 	{
 		skill_id: 6,
 		skill_name: 'git | github',
-		skill_logo: <RiGithubFill />,
+		skill_logo: <DiGit />,
 	},
 	{
 		skill_id: 7,
 		skill_name: 'Javascript',
-		skill_logo: <IoLogoJavascript />,
+		skill_logo: <DiJavascript1 />,
 	},
 	{
 		skill_id: 8,
 		skill_name: 'CSS',
-		skill_logo: <IoLogoCss3 />,
+		skill_logo: <DiCss3 />,
 	},
 	{
 		skill_id: 9,
 		skill_name: 'HTML',
-		skill_logo: <RiHtml5Fill />,
+		skill_logo: <DiHtml5 />,
 	},
 ];
 
