@@ -44,3 +44,7 @@
 .SkillsSection .skill_logo {
 	font-size: 4rem;
 }
+
+.SkillsSection .skill_name {
+	text-align: center;
+}

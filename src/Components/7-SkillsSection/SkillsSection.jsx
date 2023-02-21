@@ -1,6 +1,7 @@
 import './SkillsSection.css';
 import skillsItems from '../../ListsAndFixedContent/skillsItems';
 import SpokenHumanLaguages from '../../ListsAndFixedContent/SpokenHumanLaguages';
+import OtherSkills from '../../ListsAndFixedContent/OtherSkills';
 
 export default function SkillsSection() {
 	return (
@@ -18,7 +19,7 @@ export default function SkillsSection() {
 					);
 				})}
 			</div>
-			<div className='skillsSectionTitle'>Human laguages</div>
+			<div className='skillsSectionTitle'>Human languages</div>
 			<div className='SkillsSection' id='skills'>
 				{SpokenHumanLaguages.map((skillsItemsLoop) => {
 					const { skill_id, skill_name, skill_logo } = skillsItemsLoop;
@@ -33,13 +34,13 @@ export default function SkillsSection() {
 			</div>
 			<div className='skillsSectionTitle'>Other</div>
 			<div className='SkillsSection' id='skills'>
-				{SpokenHumanLaguages.map((skillsItemsLoop) => {
+				{OtherSkills.map((skillsItemsLoop) => {
 					const { skill_id, skill_name, skill_logo } = skillsItemsLoop;
 					console.log(skill_logo);
 					return (
 						<div key={skill_id} className='skillsItemsLoop'>
 							<div className='skill_logo'>{skill_logo}</div>
-							<div>{skill_name}</div>
+							<div className='skill_name'>{skill_name}</div>
 						</div>
 					);
 				})}
