@@ -17,7 +17,6 @@
 	background-color: var(--clr-4);
 	padding: 2rem;
 	border-radius: 0.5rem;
-	box-shadow: 0 0 0 0.1rem var(--clr-5);
 	max-width: 28rem;
 }
 
@@ -111,14 +110,58 @@
 }
 
 .ContactClickableLogos {
-	background-color: purple;
-	padding-block: 1rem;
+	margin-top: 1rem;
+	padding-block: 1.2rem;
+	width: 100%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
+	gap: 1.5rem;
+	width: 100%;
+	max-width: 28rem;
 }
 
-.ContactClickableLogos > * {
-	font-size: 3rem;
+.secondContactSection {
+	background-color: var(--clr-1);
+	border-radius: 0.5rem;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	max-width: 28rem;
+}
+
+.dark .secondContactSection {
+	background-color: var(--clr-4);
+}
+
+.ContactClickableLogos a {
+	text-decoration: none;
+	cursor: pointer;
+	font-size: 4rem;
+	padding: 0.5rem;
+	border-radius: 0.5rem;
+	display: flex;
+	background-color: var(--clr-3);
+	transition-duration: 200ms;
+	transition-timing-function: ease-in-out;
+	box-shadow: 0 0 0 0.1rem var(--clr-5);
+}
+
+.ContactClickableLogos a:hover {
+	scale: 1.1;
+	transition-duration: 200ms;
+	transition-timing-function: ease-in-out;
+}
+
+.light .ContactClickableLogos a {
+	color: var(--clr-5);
+}
+.dark .ContactClickableLogos a {
+	color: var(--clr-5);
+}
+
+.firstContactSection {
+	margin-bottom: 0.5rem;
 }
