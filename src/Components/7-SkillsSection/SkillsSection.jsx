@@ -18,7 +18,6 @@ export default function SkillsSection() {
 						</div>
 					);
 				})}
-				<div></div>
 			</div>
 		</div>
 	);
