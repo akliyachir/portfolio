@@ -6,7 +6,7 @@ export default function AboutMeSection() {
 		<div className='AboutMeSection' id='about_me'>
 			<div className='AboutMeSectionContent'>
 				<div className='title'>{aboutMeSectionContent.title}</div>
-				<p className='selfPresentation'>{aboutMeSectionContent.presentaion}</p>
+				<p className='presentation'>{aboutMeSectionContent.presentation}</p>
 			</div>
 		</div>
 	);

@@ -6,12 +6,37 @@
 	padding-block: 1rem;
 }
 .AboutMeSection .AboutMeSectionContent {
-	background-color: white;
+	max-width: 500px;
+	background-color: var(--clr-1);
 	color: var(--clr-5);
 	padding-inline: 2rem;
 	width: 100%;
+	box-shadow: 0 0 0 0.1rem var(--clr-5);
+	box-shadow: 0 0 0 0.1rem var(--clr-5) inset, var(--sh-2);
 }
 
 .AboutMeSection .AboutMeSectionContent .title {
 	font-size: 1.5rem;
+	padding-block: 1rem;
+}
+.AboutMeSection .AboutMeSectionContent .presentation {
+	padding-bottom: 1rem;
+}
+
+.dark .AboutMeSection .AboutMeSectionContent {
+	background-color: var(--clr-4);
+	color: var(--clr-3);
+}
+
+.dark .AboutMeSection {
+	padding-inline: 0;
+}
+
+.light .AboutMeSection {
+	padding-inline: 1rem;
+}
+
+.light .AboutMeSection .AboutMeSectionContent {
+	box-shadow: 0 0 0 0.1rem var(--clr-5);
+	box-shadow: 0 0 0 0.1rem var(--clr-5) inset, var(--sh-2);
 }
