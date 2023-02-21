@@ -11,8 +11,6 @@
 	color: var(--clr-5);
 	padding-inline: 2rem;
 	width: 100%;
-	box-shadow: 0 0 0 0.1rem var(--clr-5);
-	box-shadow: 0 0 0 0.1rem var(--clr-5) inset, var(--sh-2);
 }
 
 .AboutMeSection .AboutMeSectionContent .title {
