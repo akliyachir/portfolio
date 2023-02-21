@@ -11,6 +11,7 @@ export default function ContactSection() {
 		contact_phone_number,
 		contact_wasap,
 		contact_adress,
+		contact_email,
 	} = ContactInformations;
 	return (
 		<div className='ContactSection' id='contact'>
@@ -23,11 +24,12 @@ export default function ContactSection() {
 			>
 				<span className='ContactElementName'>Name</span>
 				<span>{contact_full_name} </span>
+				<span className='ContactElementName'>Email</span>
+				<span className='ContactElementInfo'>{contact_email} </span>
 				<span className='ContactElementName'>Phone</span>
 				<span className='ContactElementInfo'>{contact_phone_number} </span>
 				<span className='ContactElementName'>WhatsApp</span>
 				<span className='ContactElementInfo'>{contact_wasap} </span>
-
 				<span className='ContactElementName'>Adress</span>
 				<span className='ContactElementInfo'>{contact_adress} </span>
 			</div>

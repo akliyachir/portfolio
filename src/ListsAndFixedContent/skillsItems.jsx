@@ -1,4 +1,3 @@
-import { FaJs, FaCss3 } from 'react-icons/fa';
 import {
 	DiMongodb,
 	DiPostgresql,
