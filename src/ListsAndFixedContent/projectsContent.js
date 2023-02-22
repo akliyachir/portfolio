@@ -81,9 +81,8 @@ const projectsContent = [
 	},
 	{
 		id: 2,
-		project_name: 'Articles Publishing Platform',
-		project_description:
-			'Mern stack platform to publish articles, with user registration, authentification, authorizations, password encryption, token and local storage, foreign keys, and crud operations.',
+		project_name: 'this.Portfolio',
+		project_description: `This! meant to be different. Without a template or referring to other people styles. If it's not perfect, or beautiful enough, I assure you,  it was a lot of fun building it.`,
 		project_image_preview: '/projectsImages/2-portfolio.png',
 		project_link: 'https://my-article-online.netlify.app/',
 		project_github_repository:
