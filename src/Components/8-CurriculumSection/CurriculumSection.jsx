@@ -18,7 +18,9 @@ import {
 } from 'react-icons/ai';
 
 export default function CurriculumSection() {
-	const handleOnClickCurriculum = () => {};
+	const handleOnClickCurriculum = () => {
+		console.log('cv');
+	};
 	return (
 		<div className='CurriculumSection' id='curriculum'>
 			<div className='curriculumContentContainer'>

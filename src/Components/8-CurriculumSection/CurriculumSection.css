@@ -23,11 +23,10 @@
 	box-shadow: 0 0 0 0.1rem var(--clr-5);
 }
 .dark .curriculumContentContainer {
-	background-color: var(--tl-1);
+	background-color: var(--clr-3);
 }
 
 .light .CurriculumSection {
-	background-color: var(--clr-1);
 	background-color: var(--tl-1);
 }
 
@@ -67,4 +66,8 @@
 	scale: 1.1;
 	transition-duration: 200ms;
 	transition-timing-function: ease-in-out;
+}
+
+.dark .curriculumIconContainer > * {
+	background-color: var(--tl-1);
 }
