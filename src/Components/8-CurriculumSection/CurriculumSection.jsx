@@ -18,11 +18,14 @@ import {
 } from 'react-icons/ai';
 
 export default function CurriculumSection() {
+	const handleOnClickCurriculum = () => {};
 	return (
 		<div className='CurriculumSection' id='curriculum'>
-			<div className='curriculumTitle'>My Curriculum Vitae</div>
-			<div className='curriculumIconContainer'>
-				<AiOutlineFilePdf />
+			<div className='curriculumContentContainer'>
+				<div className='curriculumTitle'>My Curriculum</div>
+				<div className='curriculumIconContainer' onClick={handleOnClickCurriculum}>
+					<AiOutlineFilePdf />
+				</div>
 			</div>
 		</div>
 	);
