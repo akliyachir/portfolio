@@ -1,3 +1,5 @@
+import { FaCoffee, FaHeart, FaMusic } from 'react-icons/fa';
+
 const projectsContent = [
 	{
 		id: 1,
@@ -130,11 +132,15 @@ const projectsContent = [
 				},
 				{
 					tech_id: 11,
-					tech_name: 'some music',
+					tech_name: <FaHeart />,
 				},
 				{
 					tech_id: 12,
-					tech_name: 'and a lot of coffee',
+					tech_name: <FaMusic />,
+				},
+				{
+					tech_id: 13,
+					tech_name: <FaCoffee />,
 				},
 			],
 		},
