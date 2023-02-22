@@ -1,25 +1,15 @@
 import './CurriculumSection.css';
+import '/akli_yachir_cv.pdf';
 
-import {
-	RxBookmarkFilled,
-	RxDotFilled,
-	RxFile,
-	RxFileMinus,
-	RxFilePlus,
-	RxFileText,
-	RxStarFilled,
-} from 'react-icons/rx';
+/*
+ '/publicakli_yachir_cv.pdf'
+ */
 
-import {
-	AiFillEdit,
-	AiFillFileExcel,
-	AiOutlineFilePdf,
-	AiFillFileWord,
-} from 'react-icons/ai';
+import { AiOutlineFilePdf } from 'react-icons/ai';
 
 export default function CurriculumSection() {
 	const handleOnClickCurriculum = () => {
-		console.log('cv');
+		globalThis.open('/akli_yachir_cv.pdf');
 	};
 	return (
 		<div className='CurriculumSection' id='curriculum'>
