@@ -9,7 +9,7 @@ const projectsContent = [
 		project_github_repository:
 			'https://github.com/akliyachir/Mern_stack_Articles_Publishing_platform',
 		project_tech: {
-			backend: [
+			UI: [
 				{
 					tech_id: 1,
 					tech_name: 'express',
@@ -84,9 +84,8 @@ const projectsContent = [
 		project_name: 'this.Portfolio',
 		project_description: `This! meant to be different. Without a template or referring to other people styles. If it's not perfect, or beautiful enough, I assure you,  it was a lot of fun building it.`,
 		project_image_preview: '/projectsImages/2-portfolio.png',
-		project_link: 'https://my-article-online.netlify.app/',
-		project_github_repository:
-			'https://github.com/akliyachir/Mern_stack_Articles_Publishing_platform',
+		project_link: 'https://akli-yachir.netlify.app/',
+		project_github_repository: 'https://github.com/akliyachir/portfolio',
 		project_tech: {
 			backend: [
 				{
