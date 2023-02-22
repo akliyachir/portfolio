@@ -9,7 +9,7 @@ const projectsContent = [
 		project_github_repository:
 			'https://github.com/akliyachir/Mern_stack_Articles_Publishing_platform',
 		project_tech: {
-			UI: [
+			Backend: [
 				{
 					tech_id: 1,
 					tech_name: 'express',
@@ -43,7 +43,7 @@ const projectsContent = [
 					tech_name: 'validator',
 				},
 			],
-			frontend: [
+			Frontend: [
 				{
 					tech_id: 1,
 					tech_name: 'vite',
@@ -87,72 +87,54 @@ const projectsContent = [
 		project_link: 'https://akli-yachir.netlify.app/',
 		project_github_repository: 'https://github.com/akliyachir/portfolio',
 		project_tech: {
-			backend: [
+			UI: [
 				{
 					tech_id: 1,
-					tech_name: 'express',
+					tech_name: 'React',
 				},
 				{
 					tech_id: 2,
-					tech_name: 'mongodb atlas',
-				},
-				{
-					tech_id: 3,
-					tech_name: 'mongoose',
-				},
-				{
-					tech_id: 4,
-					tech_name: 'jsonwebtoken',
-				},
-				{
-					tech_id: 5,
-					tech_name: 'bcrypt',
-				},
-				{
-					tech_id: 6,
-					tech_name: 'dotenv',
-				},
-				{
-					tech_id: 7,
-					tech_name: 'cors',
-				},
-				{
-					tech_id: 8,
-					tech_name: 'validator',
-				},
-			],
-			frontend: [
-				{
-					tech_id: 1,
 					tech_name: 'vite',
 				},
 				{
-					tech_id: 2,
-					tech_name: 'react 18',
-				},
-				{
 					tech_id: 3,
-					tech_name: 'react router dom 6.8',
+					tech_name: 'React-icons',
 				},
 				{
 					tech_id: 4,
-					tech_name: 'tiptap',
+					tech_name: 'Context api',
 				},
 				{
 					tech_id: 5,
-					tech_name: 'html-react-parser',
+					tech_name: 'useContext',
 				},
 				{
 					tech_id: 6,
-					tech_name: 'local storage',
+					tech_name: 'useState',
 				},
 				{
 					tech_id: 7,
-					tech_name: 'hooks',
+					tech_name: 'useEffect',
 				},
 				{
 					tech_id: 8,
-					tech_name: 'vanilla css with grid & flexbox',
+					tech_name: 'vanilla css',
+				},
+				{
+					tech_id: 9,
+					tech_name: 'grid',
+				},
+				{
+					tech_id: 10,
+					tech_name: 'flexbox',
+				},
+				{
+					tech_id: 11,
+					tech_name: 'some music',
+				},
+				{
+					tech_id: 12,
+					tech_name: 'and a lot of coffee',
 				},
 			],
 		},
