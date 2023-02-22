@@ -52,6 +52,7 @@
 }
 .AboutMeSection .AboutMeSectionContent .presentation {
 	padding-bottom: 1rem;
+	line-height: 1.5;
 }
 
 .dark .AboutMeSection .AboutMeSectionContent {

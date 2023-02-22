@@ -84,7 +84,7 @@ const projectsContent = [
 		project_name: 'Articles Publishing Platform',
 		project_description:
 			'Mern stack platform to publish articles, with user registration, authentification, authorizations, password encryption, token and local storage, foreign keys, and crud operations.',
-		project_image_preview: '/projectsImages/1-articles-publishing-platform.png',
+		project_image_preview: '/projectsImages/2-portfolio.png',
 		project_link: 'https://my-article-online.netlify.app/',
 		project_github_repository:
 			'https://github.com/akliyachir/Mern_stack_Articles_Publishing_platform',
