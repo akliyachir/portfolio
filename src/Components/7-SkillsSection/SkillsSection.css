@@ -48,3 +48,7 @@
 .SkillsSection .skill_name {
 	text-align: center;
 }
+
+.otherSkillsSmaller {
+	height: 3rem;
+}
